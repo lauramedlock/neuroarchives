@@ -1,4 +1,4 @@
-# Brain Data & Brain-Model Initiatives
+# Brain Data: A Field Guide to Neuroscience Resources
 
 *Created October 2026 · @Laura M*
 
