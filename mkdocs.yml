@@ -1,6 +1,7 @@
 site_name: Brain Data & Brain-Model Initiatives
 site_description: A history of brain-data and brain-model initiatives worldwide, followed by a master list of 188 open neuroscience data resources.
 site_author: Laura M
+site_url: https://neuroarchives.readthedocs.io/
 repo_url: https://github.com/lauramedlock/brain-data-docs
 repo_name: lauramedlock/brain-data-docs
 edit_uri: edit/main/docs/
