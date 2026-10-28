@@ -1,6 +1,6 @@
 # Brain Data & Brain-Model Initiatives
 
-*Compiled October 2026 · @Laura M*
+*Created October 2026 · @Laura M*
 
 Two things sit behind this site. The first is a **history**: over three decades, about 30 major initiatives have tried
 to pool brain data and build a shared model of the brain, and as of October 2026 most survive as permanent archives,
