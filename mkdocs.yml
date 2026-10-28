@@ -1,9 +1,9 @@
-site_name: Brain Data & Brain-Model Initiatives
-site_description: A history of brain-data and brain-model initiatives worldwide, followed by a master list of 188 open neuroscience data resources.
-site_author: Laura Medlock
+site_name: "Brain Data: A Field Guide to Neuroscience Resources"
+site_description: A field guide to the initiatives that built the world's brain-data infrastructure, and to the 188 open archives, atlases, cohorts, benchmarks and standards they left behind.
 site_url: https://neuroarchives.readthedocs.io/
-repo_url: https://github.com/lauramedlock/neuroarchives
-repo_name: lauramedlock/neuroarchives
+site_author: Laura Medlock
+repo_url: https://github.com/lauramedlock/brain-data-docs
+repo_name: lauramedlock/brain-data-docs
 edit_uri: edit/main/docs/
 copyright: Compiled October 2026 &middot; text CC BY 4.0
 
