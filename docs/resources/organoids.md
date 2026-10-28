@@ -1,0 +1,14 @@
+# Organoids, stem cells & in-vitro models
+
+In-vitro human neural models: organoid single-cell atlases, iPSC line registries, and microelectrode-array recordings.
+
+*6 resources. Generated from [`data/neuroscience_data_resources.csv`](../about/contributing.md) — edit the CSV, not this page.*
+
+| Resource | Host (Region) | Species | Data type / technique | Level | Access | What it is |
+|---|---|---|---|---|---|---|
+| **[Human Neural Organoid Cell Atlas (HNOCA)](https://cellxgene.cziscience.com/collections)** | ETH Zurich (Treutlein lab) / Human Cell Atlas Organoid Network (Switzerland; International) | Human (iPSC-derived) | Integrated single-cell RNA-seq across ~36 organoid protocols (>1.7M cells) | Genes; cells | Fully open | Harmonized reference integrating most published neural-organoid scRNA-seq, with mapping of new organoid data onto primary fetal brain references. |
+| **[Allen Cell Explorer / allencell.org](https://www.allencell.org)** | Allen Institute for Cell Science (USA) | Human (hiPSC) | 3D live-cell imaging, segmented structures, gene-edited hiPSC line catalog, predictive models | Cells | Open data; lines via Coriell | Gene-edited fluorescent hiPSC lines (distributed via Coriell) plus large 3D imaging datasets and integrated cell models; the lines are the substrate for much organoid work. |
+| **[hPSCreg](https://hpscreg.eu)** | Fraunhofer / EU-funded human pluripotent stem cell registry (Europe) | Human (ES/iPSC) | Registry of validated hPSC lines with provenance, genetics and ethics documentation | Cells | Fully open | The global registry for finding and citing pluripotent lines, including disease-model lines used for neural differentiation. |
+| **[Braingeneers](https://braingeneers.ucsc.edu)** | UC Santa Cruz / UCSF / Caltech (USA) | Human (iPSC-derived organoids); mouse | High-density microelectrode-array recordings from organoids and cultures; live imaging; cloud lab infrastructure | Cells; activity | Open source + open data | Open hardware, software and MEA datasets for long-term electrophysiological monitoring of neural organoids. |
+| **[NeuroLINCS](https://www.neurolincs.org)** | NIH LINCS program / UC Irvine, Cedars-Sinai, Gladstone, Johns Hopkins (USA) | Human (iPSC-derived neurons) | Transcriptomics, proteomics, epigenomics and imaging of patient-derived motor neurons (ALS, SMA) | Genes; cells | Fully open | Multi-omic perturbation datasets from disease-patient iPSC neurons, released through the LINCS Data Portal and Synapse. |
+| **[Answer ALS](https://www.answerals.org)** | Johns Hopkins / Answer ALS consortium (USA) | Human (iPSC-derived neurons) | Matched clinical, genomic, transcriptomic, proteomic and iPSC-line data from ~1,000 participants | Genes; cells; behavior | Registration + data-use agreement | The largest integrated ALS biological and clinical dataset, with distributable patient-derived iPSC lines. |

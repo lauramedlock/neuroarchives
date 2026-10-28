@@ -1,0 +1,23 @@
+# Toward foundation models of the brain
+
+Two routes to a unified brain model now run in parallel: bottom-up **simulation** built from anatomy (Blue Brain, EBRAINS, Japan's Digital Brain), and top-down **AI foundation models** trained on pooled recordings to predict brain activity. Since 2025 the AI route has moved fastest, because the archives above finally supply enough standardized training data.
+
+## Simulation route
+
+- **Blue Brain → Open Brain Institute:** Biologically detailed digital mouse brain tissue; now open-sourced through [cloud virtual labs](https://theinnovator.news/interview-of-the-week-henry-markram-on-brain-based-agi/) (from March 2025); see [Open Brain Institute and Blue Brain open data](../resources/models.md).
+- **EBRAINS / The Virtual Brain:** Whole-brain network models personalized from patient scans, used in epilepsy surgery planning; continuing under EBRAINS 2.0 ([The Virtual Brain](../resources/models.md)).
+- **Japan's Digital Brain (Brain/MINDS 2.0, 2024–2030):** [Reconstructs brain function in a digital space](https://brainminds.jp/?p=441) from multi-species data, with OIST building the software tools.
+- **Connectome-constrained fly models:** The complete FlyWire wiring diagram lets researchers simulate the whole fly brain, the first animal with a full adult brain model built from synaptic data.
+
+## AI foundation-model route
+
+| Model or project | Who | Year | What it does | Status |
+| --- | --- | --- | --- | --- |
+| [TRIBE v2](https://ai.meta.com/blog/tribe-v2-brain-predictive-foundation-model/) | Meta FAIR | Mar 2026 | Predicts human fMRI responses to video, audio and text; generalizes zero-shot to new people, languages and tasks | Model, code and demo openly released |
+| [Enigma Project](https://enigmaproject.ai/) | Andreas Tolias, Stanford | 2024– | \~1-billion-parameter multimodal transformers trained on neural activity, visual input and behaviour together | Active (launched Aug 2024). First major release: [OmniMouse](https://enigma-brain.github.io/omnimouse/) (ICLR 2026), one model for neural prediction, behaviour decoding and forecasting, trained on 2.3M+ neurons from 73 mice (150B+ neural tokens); [80M-parameter model](https://huggingface.co/the-enigma-project/omnimouse-80M) and [code](https://github.com/enigma-brain/omnimouse) open. It found brain models are limited by data, not size. Also: a retina-to-superior-colliculus digital twin ([April 2026 preprint](https://www.biorxiv.org/content/10.64898/2026.04.15.718783v1)). Larger multi-billion-parameter models in training |
+| [Foundation Neural Network](https://github.com/cajal/fnn) (MICrONS digital twin). Nature paper \[[link](https://www.nature.com/articles/s41586-025-08829-y)\]. | Baylor, Stanford, Göttingen | Apr 2025 | Trained on mouse visual cortex ([MICrONS Explorer](../resources/connectomics.md)); [predicts responses to new stimuli and new mice, plus cell types and connectivity](https://ideas.repec.org/a/nat/nature/v640y2025i8058d10.1038_s41586-025-08829-y.html) | Published in Nature; code open |
+| [IBL brain-wide map](https://www.ucl.ac.uk/news/2025/sep/complete-brain-activity-map-revealed-first-time) as training data | International Brain Laboratory | Sep 2025 | \~75,000 neurons across 279 brain areas during one standardized decision task | Open dataset; a common benchmark for population models. [IBL data portal](../resources/neurophysiology.md) |
+| Neural population transformers (NDT, POYO and successors) | Academic labs | 2021– | Pretrained on spiking data from many animals and sessions to decode behaviour and fill in activity | Active research area, widely used in BCI decoding |
+| [SuperAnimal](https://www.nature.com/articles/s41467-024-48792-2) (DeepLabCut) | Mackenzie Mathis lab, EPFL | Jun 2024 | Foundation model of animal behaviour: pretrained pose estimation that tracks body keypoints in 45+ species with no new labels, or fine-tuned on a lab's own video; labelling 10–100× more efficient | Published in Nature Communications; open in the [DeepLabCut Model Zoo](https://github.com/DeepLabCut). Planned versions for birds, fish and insects. [DeepLabCut Model Zoo](../resources/behavior.md) |
+
+**Open questions.** Critics note that a model can reproduce brain activity [without explaining why the brain produces it](https://www.ibm.com/think/news/brain-machine-how-ai-explain-think). A January 2026 study that probed the MICrONS model's internal units found its readout [does not work in a biologically plausible way](https://arxiv.org/pdf/2601.21508). Current models also mostly treat the brain as a passive viewer rather than an agent producing behaviour, and none yet spans molecules, cells, circuits and whole-brain imaging in one system.

@@ -1,0 +1,67 @@
+[
+  {
+    "slug": "federated-archives",
+    "title": "Federated archives & multi-modal repositories",
+    "intro": "Start here. These are the general-purpose, standards-based archives that hold data from many labs; for most modalities one of them is the canonical place to look before searching for a lab-specific portal."
+  },
+  {
+    "slug": "reference-atlases",
+    "title": "Reference atlases & coordinate frameworks",
+    "intro": "Reference spaces and anatomical frameworks. Registering your own data into one of these is usually the precondition for comparing it to anything else in this list."
+  },
+  {
+    "slug": "transcriptomics",
+    "title": "Transcriptomics, epigenomics & spatial omics",
+    "intro": "Gene- and cell-level molecular data: bulk, single-cell, single-nucleus, epigenomic and spatial."
+  },
+  {
+    "slug": "connectomics",
+    "title": "Connectomics, projections & neuron morphology",
+    "intro": "Wiring diagrams at every scale — synapse-level electron microscopy, mesoscale projection matrices, single-neuron morphology, and macroscale diffusion connectomes."
+  },
+  {
+    "slug": "neurophysiology",
+    "title": "Neurophysiology & neural activity (animal)",
+    "intro": "Recorded neural activity in animals: electrophysiology, calcium imaging, and the standardized behavioral tasks they were recorded during."
+  },
+  {
+    "slug": "human-electrophysiology",
+    "title": "Human electrophysiology (EEG / MEG / iEEG)",
+    "intro": "Non-invasive and intracranial human electrophysiology, including clinical corpora and brain-computer-interface benchmarks."
+  },
+  {
+    "slug": "human-neuroimaging",
+    "title": "Human neuroimaging cohorts & population studies",
+    "intro": "Human MRI and PET, from small frictionless method-development datasets to population cohorts of 100,000 participants."
+  },
+  {
+    "slug": "behavior",
+    "title": "Behavior, video & pose datasets",
+    "intro": "Raw and annotated behavior video, pose-estimation ground truth, and strain-level phenotype compendia."
+  },
+  {
+    "slug": "models",
+    "title": "Computational models, simulation & benchmarks",
+    "intro": "Model source code, simulation platforms, whole-brain simulators and benchmarks that score models against neural data."
+  },
+  {
+    "slug": "organoids",
+    "title": "Organoids, stem cells & in-vitro models",
+    "intro": "In-vitro human neural models: organoid single-cell atlases, iPSC line registries, and microelectrode-array recordings."
+  },
+  {
+    "slug": "model-organisms",
+    "title": "Model-organism knowledgebases",
+    "intro": "The per-species knowledgebases that connect genes and genetic reagents to nervous-system anatomy."
+  },
+  {
+    "slug": "disease-genetics",
+    "title": "Disease, genetics & biobank portals",
+    "intro": "Disease cohorts, genetic association resources and the post-mortem tissue banks behind most human molecular neuroscience."
+  },
+  {
+    "slug": "standards-catalogs",
+    "title": "Standards, tooling & resource catalogs",
+    "intro": "The formats, metadata schemas and registries that make everything above interoperable — and the catalogs to use when this list runs out."
+  }
+]

@@ -1,0 +1,96 @@
+site_name: Brain Data & Brain-Model Initiatives
+site_description: A history of brain-data and brain-model initiatives worldwide, followed by a master list of 188 open neuroscience data resources.
+site_author: Laura M
+repo_url: https://github.com/USERNAME/brain-data-docs
+repo_name: USERNAME/brain-data-docs
+edit_uri: edit/main/docs/
+copyright: Compiled October 2026 &middot; text CC BY 4.0
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# Fail the build (with --strict) on links that do not resolve.
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
+
+extra_css:
+  - assets/extra.css
+
+nav:
+  - Home: index.md
+  - History:
+      - Overview — four waves: history/index.md
+      - National & multinational initiatives: history/national-initiatives.md
+      - Atlases, connectomes & mapping consortia: history/mapping-consortia.md
+      - Data archives, standards & infrastructure: history/infrastructure.md
+      - Toward foundation models of the brain: history/foundation-models.md
+      - Master list of 33 initiatives: history/master-list.md
+      - Outlook: history/outlook.md
+      - Sources: history/sources.md
+  - Resource list:
+      - How to navigate: resources/index.md
+      - Federated archives & multi-modal repositories: resources/federated-archives.md
+      - Reference atlases & coordinate frameworks: resources/reference-atlases.md
+      - Transcriptomics, epigenomics & spatial omics: resources/transcriptomics.md
+      - Connectomics, projections & neuron morphology: resources/connectomics.md
+      - Neurophysiology & neural activity (animal): resources/neurophysiology.md
+      - Human electrophysiology (EEG / MEG / iEEG): resources/human-electrophysiology.md
+      - Human neuroimaging cohorts & population studies: resources/human-neuroimaging.md
+      - Behavior, video & pose datasets: resources/behavior.md
+      - Computational models, simulation & benchmarks: resources/models.md
+      - Organoids, stem cells & in-vitro models: resources/organoids.md
+      - Model-organism knowledgebases: resources/model-organisms.md
+      - Disease, genetics & biobank portals: resources/disease-genetics.md
+      - Standards, tooling & resource catalogs: resources/standards-catalogs.md
+  - About:
+      - Methodology & scope: about/methodology.md
+      - Changelog: about/changelog.md
+      - Contributing: about/contributing.md
