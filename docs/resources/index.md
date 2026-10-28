@@ -3,7 +3,7 @@
 **188 resources** across 13 categories, spanning *C. elegans* to human, molecules to behaviour. Each entry records what
 the data are, who hosts them, the access conditions and the URL.
 
-Machine-readable version: [`data/neuroscience_data_resources.csv`](https://github.com/USERNAME/brain-data-docs/blob/main/data/neuroscience_data_resources.csv)
+Machine-readable version: [`data/neuroscience_data_resources.csv`](https://github.com/lauramedlock/brain-data-docs/blob/main/data/neuroscience_data_resources.csv)
 — columns: Category, Resource, Host, Region, Species, Technique, Level, Description, URL, Access. Every page in this
 section is generated from that file.
 
