@@ -65,7 +65,7 @@ flowchart TD
     INV -->|Expression| E7
     INV -->|Genes, alleles,<br>anatomy ontologies| E9[Model-organism<br>knowledgebases]
 
-    GEN -->|General archives| E10
+    GEN -->|General archives| [Federated archives and multi-modal repositories]
 
     MOD --> PURPOSE{Purpose}
     PURPOSE -->|Register my data into<br>a common coordinate space| M1[Reference atlases and<br>coordinate frameworks]
