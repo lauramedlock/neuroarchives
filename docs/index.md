@@ -109,7 +109,7 @@ flowchart LR
 <div class="grid cards" markdown>
 
 -   **[Computational Models & Simulation](resources/models.md)**
--   **[Benchmarking](resources/benchmarking.md)**
+-   **[Benchmarking](resources/benchmarks.md)**
 -   **[Reference Atlases & Coordinate Frameworks](resources/reference-atlases.md)**
 -   **[Formats, Converters, Standards](resources/standards-catalogs.md)**
     
