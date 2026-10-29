@@ -1,4 +1,4 @@
-# Data archives, standards and infrastructure
+# Data Archives, Standards and Infrastructure
 
 The archiving layer is the most durable part of the field: nearly every archive below is still running, and shared formats (BIDS for imaging, NWB for neurophysiology) are what make pooled training data for brain models possible. Their main risk is funding that comes in short grant cycles.
 
@@ -10,7 +10,7 @@ The archiving layer is the most durable part of the field: nearly every archive 
 
 | Resource | Started | Origin and historical role | Status (Oct 2026) | Full entry |
 |---|---|---|---|---|
-| INCF (International Neuroinformatics Coordinating Facility) | 2005 | Founded by seven OECD countries to coordinate neuroscience data sharing, following the OECD's push for international coordination. | Active; [co-hosted by KTH Stockholm](https://neurotecheu.umh.es/en/?p=1741), member-funded | [:material-arrow-right: resource list](../resources/standards-catalogs.md) |
+| INCF (International Neuroinformatics Coordinating Facility) | 2005 | Founded by seven OECD countries; see the [full entry](national-initiatives.md) under coordination bodies. | Active; [co-hosted by KTH Stockholm](https://neurotecheu.umh.es/en/?p=1741), member-funded | [:material-arrow-right: resource list](../resources/standards-catalogs.md) |
 | Brain Imaging Data Structure (BIDS) | 2016 | [Published in 2016](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4978148/) as a folder-and-metadata convention for MRI; community extensions for EEG, MEG, PET and microscopy followed. | Active; the de facto standard for human imaging | [:material-arrow-right: resource list](../resources/standards-catalogs.md) |
 | Neurodata Without Borders (NWB) | 2014 (v2.0 in 2019) | [Started](https://arxiv.org/pdf/2310.04317) by the Kavli Foundation, the Allen Institute and Berkeley Lab to give neurophysiology what BIDS gave imaging. | Active; required format for DANDI | [:material-arrow-right: resource list](../resources/standards-catalogs.md) |
 | OpenNeuro | 2017 (from OpenfMRI, 2010) | Grew out of OpenfMRI and became the [BRAIN-designated archive](https://www.nimh.nih.gov/funding/grant-writing-and-application-process/concept-clearances/2020/brain-initiative-data-archives-for-brain-initiative) for human imaging; the NEMAR and PET portals were added later. | Active; tied to BRAIN archive funding | [:material-arrow-right: resource list](../resources/federated-archives.md) |
