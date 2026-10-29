@@ -1,4 +1,4 @@
-# Brain Data: A Field Guide to Neuroscience Archives
+# NeuroArchives: A Field Guide to Neuroscience Data & Resources
 
 If you're starting a project with a tight budget, looking for experimental data to model/analyze, or needing a comparison cohort: **the data you need probably already exist and this guide will help you find it.** 
 
@@ -10,7 +10,29 @@ Brain scans from 100,000 people. Gene expression for all 302 neurons of a nemato
 The hard part is that this data sits in many separate portals, 
 each with its own login, licence, file format, and vocabulary.
 
-**This site is the map.** Part I (History) is a short overview of how the open neuro data field has evolved. Part II (Resource List) is where that data lives and how to access it. 
+**This site is the map.**
+
+<div class="grid cards" markdown>
+
+-   :material-timeline-clock: **[Part I — History](history/index.md)**
+
+    ---
+
+    A short overview of how the open neuroscience data field has evolved: four waves from 1990s neuroinformatics to
+    today's brain foundation models, the national initiatives behind them, and what remains funded as of October 2026.
+
+    [:octicons-arrow-right-24: Read the history](history/index.md)
+
+-   :material-database-search: **[Part II — Resource List](resources/index.md)**
+
+    ---
+
+    Where that data lives and how to access it: archives, atlases, cohorts and benchmarks across different categories,
+    each with host, species, technique, biological level and access terms.
+
+    [:octicons-arrow-right-24: Browse the resource list](resources/index.md)
+
+</div>
 
 ## Finding your resource
 
@@ -94,9 +116,7 @@ Now explore the matching dataset/resource:
 
 </div>
 
-## State of the field
-
-If you read nothing else, these three things shape everything in the list:
+## State of the Field
 
 - **Open data sharing is working.** Open archives (OpenNeuro, DANDI, EBRAINS) and the shared formats beneath
   them (BIDS for imaging, NWB for neurophysiology) are active and growing, and now also serve as the training substrate
