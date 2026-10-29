@@ -12,7 +12,7 @@ Brain scans from 100,000 people. Gene expression for all 302 neurons of a nemato
 The hard part is that this data sits in many separate portals, 
 each with its own login, licence, file format, and vocabulary.
 
-**This site is the map.**
+## **This site is the map.**
 
 <div class="grid cards" markdown>
 
@@ -21,7 +21,7 @@ each with its own login, licence, file format, and vocabulary.
     ---
 
     A short overview of how the open neuroscience data field has evolved: four waves from 1990s neuroinformatics to
-    today's brain foundation models, the national initiatives behind them, and what remains funded as of October 2026.
+    today's brain foundation models, the national initiatives behind them, and what remains funded.
 
     [:octicons-arrow-right-24: Read the history](history/index.md)
 
