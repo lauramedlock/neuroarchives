@@ -14,7 +14,7 @@ Three things stand out:
 
 The field moved through four overlapping waves: shared databases (1990s), whole-brain atlases (2000s), national "moonshot" initiatives (2013–2018), and, since about 2020, open data standards plus AI models trained across many datasets.
 
-![Timeline of the four waves, 1993–2026](../assets/waves-timeline.svg)
+![Timeline of the four waves, 1993–2026](../assets/timeline.svg)
 
 **Wave 1 — Neuroinformatics (1993–2005).** The first wave was about making existing data usable by someone who had not collected it. The response was infrastructure including databases, catalogues, and the committees needed to agree on shared formats, common vocabulary, and a way to cite a dataset. The [US Human Brain Project](national-initiatives.md) (NIMH and partners, 1993–2004) funded that first
 generation of tools, and an OECD push for international coordination produced the [INCF](national-initiatives.md) in Stockholm in 2005, which still runs the process by which BIDS and NWB are endorsed. [ModelDB](../resources/models.md), started at Yale's SenseLab in 1996, is still the main archive of published computational neuroscience models.
