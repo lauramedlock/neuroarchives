@@ -49,7 +49,7 @@ flowchart LR
     PREP -->|Human| HU[Modality]
     PREP -->|Rodent or<br>NHP| RO[Modality]
     PREP -->|Fly, Worm,<br>Zebrafish| INV[Modality]
-    PREP -->|Undecided| GEN[Modality]
+    PREP -->|Undecided| GEN
 
     HU -->|MRI, fMRI, dMRI, PET| E1[Neuroimaging]
     HU -->|EEG, MEG, iEEG| E2[Electrophysiology]
@@ -65,7 +65,7 @@ flowchart LR
     INV -->|Expression| E7
     INV -->|Genes, Alleles,<br>Anatomy Ontologies| E9[Model-Organism<br>Databases]
 
-    GEN -->|General Archives| E10[Multi-Modal Repositories]
+    GEN -->[General Archives] E10[Multi-Modal Repositories]
 
     MOD --> PURPOSE[Purpose]
     PURPOSE -->|Register my data into<br>a common coordinate space| M1[Reference Atlases and<br>Coordinate Frameworks]
