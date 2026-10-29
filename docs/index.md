@@ -74,8 +74,6 @@ flowchart LR
     PURPOSE -->|Convert data formats, find<br>repositories, cite RRIDs| M3[Standards, Tools,<br>and Catalogs]
 ```
 
-Now explore the matching dataset/resource:
-
 ### Experimental Data
 
 <div class="grid cards" markdown>
@@ -87,7 +85,7 @@ Now explore the matching dataset/resource:
     [Disease, Genetics, & Biobank Portals](resources/disease-genetics.md) ·
     [Organoids & Stem Cells](resources/organoids.md)
 
--   **Animal (rodent, NHP)**
+-   **Animal (Rodent, NHP)**
 
     [Neurophysiology](resources/neurophysiology.md) ·
     [Connectomics & Morphology](resources/connectomics.md) ·
@@ -110,7 +108,7 @@ Now explore the matching dataset/resource:
 
 <div class="grid cards" markdown>
 
--   **Simulation and Benchmarking**
+-   **[Computational Models & Simulation](resources/models.md)**
 
     [Computational Models & Simulation](resources/models.md) · [Benchmarking](resources/benchmarking.md)
 
