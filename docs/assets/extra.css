@@ -33,7 +33,7 @@
   --md-mermaid-edge-color:     #333333;
 }
 
-[data-md-color-primary="default"] {
+[data-md-color-primary="amber"] {
   --md-primary-bg-color: #ffffff;
   --md-primary-bg-color--light: #ffffffb3;
 }
