@@ -72,27 +72,27 @@ extra_css:
 nav:
   - Home: index.md
   - History:
-      - Overview — four waves: history/index.md
-      - National & multinational initiatives: history/national-initiatives.md
-      - Atlases, connectomes & mapping consortia: history/mapping-consortia.md
-      - Data archives, standards & infrastructure: history/infrastructure.md
-      - Toward foundation models of the brain: history/foundation-models.md
-      - Master list of 33 initiatives: history/master-list.md
-      - Outlook: history/outlook.md
+      - Overview: history/index.md
+      - Wave 1 - National & Multinational Initiatives: history/national-initiatives.md
+      - Wave 2 - Atlases, Connectomes & Mapping Consortia: history/mapping-consortia.md
+      - Wave 3 - Data Archives, Standards & Infrastructure: history/infrastructure.md
+      - Wave 4 - Foundation Models of the Brain: history/foundation-models.md
+      - List of Initiatives: history/master-list.md
+      - Outlook Going Forward: history/outlook.md
       - Sources: history/sources.md
-  - Resource list:
-      - How to navigate: resources/index.md
-      - Federated archives & multi-modal repositories: resources/federated-archives.md
-      - Reference atlases & coordinate frameworks: resources/reference-atlases.md
-      - Transcriptomics, epigenomics & spatial omics: resources/transcriptomics.md
-      - Connectomics, projections & neuron morphology: resources/connectomics.md
-      - Neurophysiology & neural activity (animal): resources/neurophysiology.md
-      - Human electrophysiology (EEG / MEG / iEEG): resources/human-electrophysiology.md
-      - Human neuroimaging cohorts & population studies: resources/human-neuroimaging.md
-      - Behavior, video & pose datasets: resources/behavior.md
-      - Computational models, simulation & benchmarks: resources/models.md
-      - Organoids, stem cells & in-vitro models: resources/organoids.md
-      - Model-organism knowledgebases: resources/model-organisms.md
-      - Disease, genetics & biobank portals: resources/disease-genetics.md
+  - Resource List:
+      - How to Navigate: resources/index.md
+      - Multi-Modal Repositories: resources/federated-archives.md
+      - Reference Atlases & Coordinate Frameworks: resources/reference-atlases.md
+      - Transcriptomics, Epigenomics & Spatial omics: resources/transcriptomics.md
+      - Connectomics & Morphology: resources/connectomics.md
+      - Neurophysiology (Animal): resources/neurophysiology.md
+      - Human Electrophysiology: resources/human-electrophysiology.md
+      - Human Neuroimaging: resources/human-neuroimaging.md
+      - Behavior, Video & Pose Datasets: resources/behavior.md
+      - Computational Models & Simulation: resources/models.md
+      - Organoids & Stem Cells: resources/organoids.md
+      - Model-Organism Databases: resources/model-organisms.md
+      - Disease, Genetics & Biobank Portals: resources/disease-genetics.md
       - Standards, tooling & resource catalogs: resources/standards-catalogs.md
       - Benchmarks & evaluation suites: resources/benchmarks.md
