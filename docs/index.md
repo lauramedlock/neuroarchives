@@ -46,10 +46,10 @@ flowchart LR
     START --> MOD[Computational Models<br>and Tools]
 
     EXP --> PREP[Preparation]
-    PREP -->|Undecided| GEN[General Archives]
-    PREP -->|Human| HU[Modality]
-    PREP -->|Rodent or<br>NHP| RO[Modality]
-    PREP -->|Fly, Worm,<br>Zebrafish| INV[Modality]
+    PREP -->GEN[Undecided]
+    PREP -->HU[Human]
+    PREP -->RO[Rodent, NHP]
+    PREP -->INV[Fly, Worm,<br>Zebrafish]
 
     HU -->|MRI, fMRI, dMRI, PET| E1[Neuroimaging]
     HU -->|EEG, MEG, iEEG| E2[Electrophysiology]
