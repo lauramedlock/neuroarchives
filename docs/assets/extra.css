@@ -14,13 +14,21 @@
   text-align: center;
 }
 
-.md-typeset .mermaid .edgeLabel { background-color: transparent !important; }
-.md-typeset .mermaid .edgeLabel p,
-.md-typeset .mermaid .edgeLabel span,
-.md-typeset .mermaid .edgeLabel foreignObject div {
-  background-color: var(--md-code-bg-color) !important;
-  color: var(--md-default-fg-color) !important;
-  border: 1px solid var(--md-default-fg-color--lightest) !important;
-  border-radius: 3px;
-  padding: 1px 5px;
+/* Mermaid: reproduce the stock Mermaid rendering (what GitHub shows).
+   Material passes these six variables into mermaid.initialize(), so they are
+   applied BEFORE layout is computed. That matters beyond colour: Mermaid sizes
+   nodes and routes edges by measuring node text, so declaring the font here
+   makes measurement and rendering agree — which is what keeps connectors
+   aligned with their boxes instead of cutting across them. */
+[data-md-color-scheme="default"],
+[data-md-color-scheme="slate"] {
+  --md-mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
+}
+
+[data-md-color-scheme="default"] {
+  --md-mermaid-node-bg-color:  #ececff;   /* stock Mermaid primaryColor       */
+  --md-mermaid-node-fg-color:  #9370db;   /* stock primaryBorderColor         */
+  --md-mermaid-label-bg-color: #e8e8e8;   /* grey edge-label chips            */
+  --md-mermaid-label-fg-color: #333333;
+  --md-mermaid-edge-color:     #333333;
 }
