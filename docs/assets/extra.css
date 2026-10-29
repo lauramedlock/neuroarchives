@@ -32,3 +32,8 @@
   --md-mermaid-label-fg-color: #333333;
   --md-mermaid-edge-color:     #333333;
 }
+
+[data-md-color-primary="default"] {
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: #ffffffb3;
+}
