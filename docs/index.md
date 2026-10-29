@@ -49,7 +49,7 @@ flowchart LR
     PREP -->|Human| HU[Modality]
     PREP -->|Rodent or<br>NHP| RO[Modality]
     PREP -->|Fly, Worm,<br>Zebrafish| INV[Modality]
-    PREP -->|Undecided| GEN
+    PREP -->|Undecided| General Archives
 
     HU -->|MRI, fMRI, dMRI, PET| E1[Neuroimaging]
     HU -->|EEG, MEG, iEEG| E2[Electrophysiology]
