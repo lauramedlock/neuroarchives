@@ -39,7 +39,7 @@ each with its own login, licence, file format, and vocabulary.
 ## Finding your resource
 
 ```mermaid
-%%{init: {"flowchart": {"curve": "stepBefore", "nodeSpacing": 35, "rankSpacing": 55, "useMaxWidth": false}} }%%
+%%{init: {"flowchart": {"curve": "stepBefore", "nodeSpacing": 35, "rankSpacing": 55, "useMaxWidth": true}} }%%
 flowchart TD
     START([What do you need?])
     START --> EXP[Experimental data]
@@ -51,15 +51,15 @@ flowchart TD
     PREP -->|Fly, worm,<br>zebrafish| INV{Modality}
     PREP -->|Undecided| GEN{Modality}
 
-    HU -->|MRI, fMRI, dMRI, PET| E1[Neuroimaging cohorts]
-    HU -->|EEG, MEG, iEEG| E2[Human electrophysiology]
-    HU -->|Tissue, genotypes,<br>disease cohorts| E3[Disease, genetics<br>and biobanks]
-    HU -->|Organoid and<br>culture recordings| E4[Organoids and<br>in-vitro models]
+    HU -->|Neuroimaging| E1[MRI, fMRI, dMRI, PET]
+    HU -->|Electrophysiology| E2[EEG, MEG, iEEG]
+    HU -->|Tissue, genotypes,<br>disease cohorts| E3[Disease, genetics,<br>and biobanks]
+    HU -->|Organoid and<br>culture recordings| E4[Organoids, stem cells,<br> and in-vitro models]
 
-    RO -->|Spiking, LFP,<br>calcium imaging| E5[Neurophysiology]
-    RO -->|EM, tracing,<br>morphology| E6[Connectomics]
+    RO -->E5[Neurophysiology]|Spiking, LFP,<br>calcium imaging| 
+    RO -->E6[Connectomics]|EM, tracing,<br>morphology| 
     RO -->|scRNA-seq, snATAC,<br>spatial omics| E7[Transcriptomics]
-    RO -->|Video and<br>pose tracking| E8[Behaviour and pose]
+    RO -->|Video and<br>pose tracking| E8[Behaviour and Pose]
 
     INV -->|Wiring| E6
     INV -->|Expression| E7
@@ -83,9 +83,9 @@ Now explore the matching dataset/resource:
 -   **Human**
 
     [Neuroimaging cohorts and population studies](resources/human-neuroimaging.md) ·
-    [EEG, MEG and iEEG](resources/human-electrophysiology.md)
-    [Disease, genetics and biobank portals](resources/disease-genetics.md) ·
-    [Organoids, stem cells and in-vitro models](resources/organoids.md)
+    [EEG, MEG, and iEEG](resources/human-electrophysiology.md) ·
+    [Disease, genetics, and biobank portals](resources/disease-genetics.md) ·
+    [Organoids, stem cells, and in-vitro models](resources/organoids.md)
 
 -   **Animal (rodent, NHP)**
 
