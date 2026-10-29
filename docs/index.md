@@ -106,19 +106,17 @@ Now explore the matching dataset/resource:
 
 </div>
 
-### Models and tools
+### Models and Tools
 
 <div class="grid cards" markdown>
 
--   **Simulation and benchmarking**
+-   **Simulation and Benchmarking**
 
-    [Computational models, Simulation, and Benchmarks](resources/models.md) — published model source, whole-brain
-    simulators, and benchmarks that score models against neural recordings.
+    [Computational Models & Simulation](resources/models.md) · [Benchmarking](resources/benchmarking.md)
 
--   **Formats, converters, and registries**
+-   **Formats, Converters, and Registries**
 
-    [Standards, tooling and resource catalogs](resources/standards-catalogs.md) — BIDS, NWB, DataLad, and the
-    registries to search when this list runs out.
+    [Standards, Tooling and Resource Catalogs](resources/standards-catalogs.md)
 
 </div>
 
