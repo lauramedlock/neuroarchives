@@ -69,8 +69,8 @@ flowchart LR
 
     MOD --> PURPOSE([Purpose])
     PURPOSE -->|Register my data into<br>a common coordinate space| M1[Reference Atlases and<br>Coordinate Frameworks]
-    PURPOSE -->|Simulate circuits,<br>reuse published models| M2[Models, Simulation,<br>and Benchmarks]
-    PURPOSE -->|Score a model<br>against neural data| M4[See "Experimental Data" Arm]
+    PURPOSE -->|Simulate circuits,<br>reuse published models| M2[Models, Simulation]
+    PURPOSE -->|Score a model<br>against neural data| M4[Benchmarks]
     PURPOSE -->|Convert data formats, find<br>repositories, cite RRIDs| M3[Standards, Tools,<br>and Catalogs]
 ```
 
