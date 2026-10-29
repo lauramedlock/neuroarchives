@@ -45,11 +45,11 @@ flowchart LR
     START --> EXP[Experimental Data]
     START --> MOD[Computational Models<br>and Tools]
 
-    EXP --> PREP([Preparation])
-    PREP -->|Human| HU([Modality])
-    PREP -->|Rodent or<br>NHP| RO([Modality])
-    PREP -->|Fly, Worm,<br>Zebrafish| INV([Modality])
-    PREP -->|Undecided| GEN([Modality])
+    EXP --> PREP[Preparation]
+    PREP -->|Human| HU[Modality]
+    PREP -->|Rodent or<br>NHP| RO[Modality]
+    PREP -->|Fly, Worm,<br>Zebrafish| INV[Modality]
+    PREP -->|Undecided| GEN[Modality]
 
     HU -->|MRI, fMRI, dMRI, PET| E1[Neuroimaging]
     HU -->|EEG, MEG, iEEG| E2[Electrophysiology]
@@ -67,7 +67,7 @@ flowchart LR
 
     GEN -->|General Archives| E10[Multi-Modal Repositories]
 
-    MOD --> PURPOSE([Purpose])
+    MOD --> PURPOSE[Purpose]
     PURPOSE -->|Register my data into<br>a common coordinate space| M1[Reference Atlases and<br>Coordinate Frameworks]
     PURPOSE -->|Simulate circuits,<br>reuse published models| M2[Models, Simulation]
     PURPOSE -->|Score a model<br>against neural data| M4[Benchmarks]
