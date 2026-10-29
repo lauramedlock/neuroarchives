@@ -39,17 +39,17 @@ each with its own login, licence, file format, and vocabulary.
 ## Finding your resource
 
 ```mermaid
-%%{init: {"flowchart": {"curve": "stepBefore", "useMaxWidth": true}} }%%
+%%{init: {"flowchart": {"curve": "stepBefore", "useMaxWidth": true, "rankSpacing": 90, "nodeSpacing": 45}} }%%
 flowchart LR
     START([What Do You Need?])
     START --> EXP[Experimental Data]
     START --> MOD[Computational Models<br>and Tools]
 
     EXP --> PREP[Preparation]
+    PREP -->|Undecided| GEN[General Archives]
     PREP -->|Human| HU[Modality]
     PREP -->|Rodent or<br>NHP| RO[Modality]
     PREP -->|Fly, Worm,<br>Zebrafish| INV[Modality]
-    PREP -->|Undecided| GEN[General Archives]
 
     HU -->|MRI, fMRI, dMRI, PET| E1[Neuroimaging]
     HU -->|EEG, MEG, iEEG| E2[Electrophysiology]
@@ -61,8 +61,8 @@ flowchart LR
     RO -->|scRNA-seq, snATAC,<br>spatial-omics| E7[Transcriptomics]
     RO -->|Video and<br>Pose Tracking| E8[Behaviour and Pose]
 
-    INV -->|Wiring| E6
-    INV -->|Expression| E7
+    INV -->|Wiring| E6b[Connectomics,<br>Morphology]
+    INV -->|Expression| E7b[Transcriptomics]
     INV -->|Genes, Alleles,<br>Anatomy Ontologies| E9[Model-Organism<br>Databases]
 
     GEN -->E10[Multi-Modal Repositories]
