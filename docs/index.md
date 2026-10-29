@@ -39,8 +39,8 @@ each with its own login, licence, file format, and vocabulary.
 ```mermaid
 flowchart TD
     START([What do you need?])
-    START --> EXP[Experimental data<br>to explore, analyse<br>or compare against]
-    START --> MOD[Computational models,<br>reference spaces<br>and tooling]
+    START --> EXP[Experimental data]
+    START --> MOD[Computational models<br>and tools]
 
     EXP --> PREP{Preparation}
     PREP -->|Human, in vivo| HU{Modality}
@@ -142,5 +142,3 @@ can download data from. Nothing is described twice; which half you want depends 
 
 Check the **Access** column first. Four tiers show up across the list: *fully open* (click and download), *registration* (free account), *data-use agreement* (a signature, no
 review), and *controlled access* (committee review, often weeks, sometimes an institutional signing official).
-
-Roughly: the invertebrate connectomes and the Allen atlases are open; the big human cohorts are not.
