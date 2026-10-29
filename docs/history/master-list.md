@@ -1,4 +1,4 @@
-# Master list of initiatives
+# Initiatives List
 
 33 initiatives tracked: 22 active, 1 active with funding at risk, 4 transitioned to a successor, 4 completed, and 2 proposed but never funded. Status reflects public information as of October 2026.
 
