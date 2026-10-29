@@ -3,11 +3,9 @@
 *Created October 2026 · @Laura M*
 
 <div class="grid cards" markdown>
-
 -   If you're starting a project with a tight budget, looking for experimental data to model/analyze, or needing a
     comparison cohort: **the data you need probably already exist and this guide will help you find it.**
-
-</div>    
+</div>
 
 The scale of data that is already publicly available is easy to underestimate. Every synapse in a fruit fly's brain (all 140,000
 neurons and roughly 50 million connections) has been reconstructed and published. So has a cubic millimetre of mouse
