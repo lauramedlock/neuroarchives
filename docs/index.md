@@ -1,4 +1,6 @@
-# NeuroArchives: A Field Guide to Neuroscience Data & Resources
+# NeuroArchives: A Field Guide to Neuro Data & Resources
+
+*Created October 2026 · @Laura M*
 
 If you're starting a project with a tight budget, looking for experimental data to model/analyze, or needing a comparison cohort: **the data you need probably already exist and this guide will help you find it.** 
 
@@ -37,6 +39,7 @@ each with its own login, licence, file format, and vocabulary.
 ## Finding your resource
 
 ```mermaid
+%%{init: {"flowchart": {"curve": "stepBefore", "nodeSpacing": 35, "rankSpacing": 55, "useMaxWidth": false}} }%%
 flowchart TD
     START([What do you need?])
     START --> EXP[Experimental data]
