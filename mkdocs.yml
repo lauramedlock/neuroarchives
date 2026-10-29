@@ -87,6 +87,7 @@ nav:
               - Human Electrophysiology: resources/human-electrophysiology.md
               - Disease, Genetics & Biobank Portals: resources/disease-genetics.md
               - Organoids & Stem Cells: resources/organoids.md
+              - Behavior, Video & Pose Datasets: resources/behavior.md
           - Rodent & Nonhuman Primate:
               - Neurophysiology (Animal): resources/neurophysiology.md
               - Connectomics & Morphology: resources/connectomics.md
@@ -96,7 +97,7 @@ nav:
               - Connectomics & Morphology: resources/connectomics.md
               - Transcriptomics, Epigenomics & Spatial Omics: resources/transcriptomics.md
               - Model-Organism Databases: resources/model-organisms.md
-          - Not Sure Yet:
+          - General Repositories:
               - Multi-Modal Repositories: resources/federated-archives.md
       - Models & Tools:
           - Computational Models & Simulation: resources/models.md
