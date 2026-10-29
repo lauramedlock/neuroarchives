@@ -82,6 +82,7 @@ nav:
   - Resource List:
       - How to Navigate: resources/index.md
       - Experimental Data:
+          - General Repositories: resources/federated-archives.md
           - Human:
               - Human Neuroimaging: resources/human-neuroimaging.md
               - Human Electrophysiology: resources/human-electrophysiology.md
@@ -97,8 +98,6 @@ nav:
               - Connectomics & Morphology: resources/connectomics.md
               - Transcriptomics, Epigenomics & Spatial Omics: resources/transcriptomics.md
               - Model-Organism Databases: resources/model-organisms.md
-          - General Repositories:
-              - Multi-Modal Repositories: resources/federated-archives.md
       - Models & Tools:
           - Computational Models & Simulation: resources/models.md
           - Benchmarks & Evaluation Suites: resources/benchmarks.md
