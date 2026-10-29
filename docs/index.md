@@ -41,7 +41,7 @@ each with its own login, licence, file format, and vocabulary.
 ```mermaid
 %%{init: {"flowchart": {"curve": "stepBefore", "nodeSpacing": 35, "rankSpacing": 55, "useMaxWidth": true}} }%%
 flowchart LR
-    START([What do you need?])
+    START([What Do You Need?])
     START --> EXP[Experimental Data]
     START --> MOD[Computational Models<br>and Tools]
 
