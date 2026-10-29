@@ -45,11 +45,11 @@ flowchart LR
     START --> EXP[Experimental Data]
     START --> MOD[Computational Models<br>and Tools]
 
-    EXP --> PREP{Preparation}
-    PREP -->|Human| HU{Modality}
-    PREP -->|Rodent or<br>NHP| RO{Modality}
-    PREP -->|Fly, Worm,<br>Zebrafish| INV{Modality}
-    PREP -->|Undecided| GEN{Modality}
+    EXP --> PREP([Preparation])
+    PREP -->|Human| HU([Modality])
+    PREP -->|Rodent or<br>NHP| RO([Modality])
+    PREP -->|Fly, Worm,<br>Zebrafish| INV([Modality])
+    PREP -->|Undecided| GEN([Modality])
 
     HU -->|MRI, fMRI, dMRI, PET| E1[Neuroimaging]
     HU -->|EEG, MEG, iEEG| E2[Electrophysiology]
