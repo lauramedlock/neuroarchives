@@ -1,107 +1,117 @@
 # Brain Data: A Field Guide to Neuroscience Archives
 
-Whether you're a new lab/student with a tight budget, a modeller looking for something real to fit, or a researcher with recordings that need a comparison cohort: **the data you need probably already exists, but you are not sure where to find it**. 
+If you're starting a project with a tight budget, looking for experimental data to model/analyze, or needing a comparison cohort: **the data you need probably already exist and this guide will help you find it.** 
 
-The scale of what is sitting there is easy to underestimate. Every synapse in a fruit fly's brain — all 140,000
-neurons and roughly 50 million connections — has been reconstructed and published. So has a cubic millimetre of mouse
+The scale of data that is already publicly available is easy to underestimate. Every synapse in a fruit fly's brain (all 140,000
+neurons and roughly 50 million connections) has been reconstructed and published. So has a cubic millimetre of mouse
 visual cortex in which 200,000 cells each come with a recording of what they did while the animal watched a movie.
 Brain scans from 100,000 people. Gene expression for all 302 neurons of a nematode, measured one neuron at a time.
 
-The hard part isn't whether the data exist, it is that they sit in many separate
-portals, each with its own login, licence, file format and vocabulary, and no two of them agree on what to call a
-brain region.
+The hard part is that this data sits in many separate portals, 
+each with its own login, licence, file format, and vocabulary.
 
-**This site is the map.** Part I is the history of how the field has evolved. Part II is where everything lives and what it takes to get in. 
+**This site is the map.** Part I (History) is a short overview of how the open neuro data field has evolved. Part II (Resource List) is where that data lives and how to access it. 
 
-## Find your way in
-
-Start from what you actually want to measure:
+## Finding your resource
 
 ```mermaid
 flowchart TD
-    START([What are you<br>looking for?])
+    START([What do you need?])
+    START --> EXP[Experimental data<br>to explore, analyse<br>or compare against]
+    START --> MOD[Computational models,<br>reference spaces<br>and tooling]
 
-    START --> SPECIES{Whose brain?}
-    START --> BUILD{Building a model?}
-    START --> CONTEXT{Context, not data?}
+    EXP --> PREP{Preparation}
+    PREP -->|Human, in vivo| HU{Modality}
+    PREP -->|Human, post-mortem<br>or iPSC-derived| HPM{Measurement}
+    PREP -->|Rodent or<br>nonhuman primate| RO{Modality}
+    PREP -->|Fly, worm,<br>zebrafish| INV{Modality}
+    PREP -->|Undecided —<br>search broadly first| FED[Federated archives]
 
-    SPECIES -->|Human| H{Measured how?}
-    SPECIES -->|Mouse, rat,<br>primate| M{Measured how?}
-    SPECIES -->|Fly, worm,<br>zebrafish| INV[Invertebrates and<br>small vertebrates]
+    HU -->|MRI, fMRI, dMRI, PET| E1[Neuroimaging cohorts]
+    HU -->|EEG, MEG, iEEG| E2[Human electrophysiology]
 
-    H -->|In a scanner| H1[Neuroimaging cohorts]
-    H -->|With electrodes| H2[EEG / MEG / iEEG]
-    H -->|Post-mortem| H3[Disease, genetics<br>and biobanks]
+    HPM -->|Tissue, genotypes,<br>disease cohorts| E3[Disease, genetics<br>and biobanks]
+    HPM -->|Organoid and<br>culture recordings| E4[Organoids and<br>in-vitro models]
 
-    M -->|Spikes and calcium| M1[Neurophysiology]
-    M -->|Wiring| M2[Connectomics]
-    M -->|Gene expression| M3[Transcriptomics]
-    M -->|Video and pose| M4[Behaviour]
+    RO -->|Spiking, LFP,<br>calcium imaging| E5[Neurophysiology]
+    RO -->|EM, tracing,<br>morphology| E6[Connectomics]
+    RO -->|scRNA-seq, snATAC,<br>spatial omics| E7[Transcriptomics]
+    RO -->|Video and<br>pose tracking| E8[Behaviour and pose]
 
-    INV --> M2
-    INV --> M3
-    INV --> INV1[Model-organism<br>knowledgebases]
+    INV -->|Wiring| E6
+    INV -->|Expression| E7
+    INV -->|Genes, alleles,<br>anatomy ontologies| E9[Model-organism<br>knowledgebases]
 
-    BUILD -->|Need a reference space| B1[Atlases and<br>coordinate frameworks]
-    BUILD -->|Need code or a benchmark| B2[Models, simulation<br>and benchmarks]
-
-    CONTEXT -->|How did we get here?| C1[Four waves of<br>brain-data history]
-    CONTEXT -->|Who funds what, now?| C2[Master list of<br>33 initiatives]
+    MOD --> PURPOSE{Purpose}
+    PURPOSE -->|Register my data into<br>a common coordinate space| M1[Reference atlases and<br>coordinate frameworks]
+    PURPOSE -->|Simulate circuits,<br>reuse published models| M2[Models, simulation<br>and benchmarks]
+    PURPOSE -->|Score a model<br>against neural data| M2
+    PURPOSE -->|Convert formats, find<br>repositories, cite RRIDs| M3[Standards, tooling<br>and catalogs]
 ```
+Now explore the matching dataset/resource:
 
-Now pick the matching door:
+### Experimental data
 
 <div class="grid cards" markdown>
 
--   :material-brain: **Human brains**
+-   **Human, in vivo**
 
-    [Neuroimaging cohorts](resources/human-neuroimaging.md) · [EEG, MEG and iEEG](resources/human-electrophysiology.md) ·
-    [Disease, genetics and biobanks](resources/disease-genetics.md)
+    [Neuroimaging cohorts and population studies](resources/human-neuroimaging.md) ·
+    [EEG, MEG and iEEG](resources/human-electrophysiology.md)
 
--   :material-rodent: **Animal brains**
+-   **Human, post-mortem and in vitro**
 
-    [Neurophysiology](resources/neurophysiology.md) · [Connectomics](resources/connectomics.md) ·
-    [Behaviour and pose](resources/behavior.md) · [Model organisms](resources/model-organisms.md)
+    [Disease, genetics and biobank portals](resources/disease-genetics.md) ·
+    [Organoids, stem cells and in-vitro models](resources/organoids.md)
 
--   :material-dna: **Molecules and cells**
+-   **Rodent and nonhuman primate**
 
+    [Neurophysiology and neural activity](resources/neurophysiology.md) ·
+    [Connectomics and morphology](resources/connectomics.md) ·
     [Transcriptomics and spatial omics](resources/transcriptomics.md) ·
-    [Organoids and stem cells](resources/organoids.md)
+    [Behaviour, video and pose](resources/behavior.md)
 
--   :material-cube-outline: **Building something**
+-   **Invertebrate and small vertebrate**
 
-    [Atlases and coordinate frameworks](resources/reference-atlases.md) ·
-    [Models and benchmarks](resources/models.md) · [Standards and tooling](resources/standards-catalogs.md)
-
--   :material-database-search: **No idea where to start**
-
-    [Federated archives](resources/federated-archives.md) — the general-purpose ones. For most modalities, one of
-    these already has what you want.
-
--   :material-timeline-clock: **Here for the story**
-
-    [Four waves of history](history/index.md) · [National initiatives](history/national-initiatives.md) ·
-    [Foundation models](history/foundation-models.md) · [Outlook](history/outlook.md)
+    [Connectomics](resources/connectomics.md) · [Transcriptomics](resources/transcriptomics.md) ·
+    [Model-organism knowledgebases](resources/model-organisms.md)
 
 </div>
 
-## The short version
+### Models and tools
+
+<div class="grid cards" markdown>
+
+-   **Simulation and benchmarking**
+
+    [Computational models, simulation, and benchmarks](resources/models.md) — published model source, whole-brain
+    simulators, and benchmarks that score models against neural recordings.
+
+-   **Formats, converters, and registries**
+
+    [Standards, tooling and resource catalogs](resources/standards-catalogs.md) — BIDS, NWB, DataLad, and the
+    registries to search when this list runs out.
+
+</div>
+
+## State of the field
 
 If you read nothing else, these three things shape everything in the list:
 
-- **The plumbing works.** Open archives like OpenNeuro, DANDI and EBRAINS are alive and growing, and the shared
-  formats underneath them — BIDS for imaging, NWB for neurophysiology — are what let you download somebody else's
-  experiment and actually open it. They are now also what makes AI models of the brain trainable at all.
-- **The megaprojects turned into furniture.** The billion-euro EU Human Brain Project became EBRAINS. Blue Brain
-  closed and became the Open Brain Institute. Japan's Brain/MINDS became Brain/MINDS 2.0. The ten-year moonshot has
-  given way to permanent infrastructure, which is less thrilling and considerably more useful.
-- **The money is moving east.** US BRAIN funding is below its 2023 peak and faces a cliff after FY2026, while China
-  and Japan expand. Canada and Australia have mature national strategies and no national budget behind them.
+- **Open data sharing is working.** Open archives (OpenNeuro, DANDI, EBRAINS) and the shared formats beneath
+  them (BIDS for imaging, NWB for neurophysiology) are active and growing, and now also serve as the training substrate
+  for pooled models of neural activity.
+- **Megaprojects have converted into permanent infrastructure.** The EU Human Brain Project ended in 2023 and was
+  succeeded by EBRAINS; Blue Brain closed in 2024 and its assets moved to the Open Brain Institute; Japan's Brain/MINDS
+  became Brain/MINDS 2.0.
+- **Funding is shifting.** US BRAIN funding sits below its 2023 peak and its 21st Century Cures Act component ends
+  after FY2026, while China and Japan are expanding. Canada and Australia have mature national strategies without
+  dedicated national budgets.
 
 ## Two halves, two questions
 
-Plenty of things appear in both parts of this site — EBRAINS is simultaneously a 2019 EU initiative and an archive you
-can download from this afternoon. Nothing is described twice; which half you want depends on your question:
+Plenty of things appear in both parts of this site... EBRAINS is simultaneously a 2019 EU initiative and an archive you
+can download data from. Nothing is described twice; which half you want depends on your question:
 
 | Your question | Where it is answered |
 |---|---|
@@ -110,8 +120,7 @@ can download from this afternoon. Nothing is described twice; which half you wan
 
 ## Before you download anything
 
-Check the **Access** column first. It is the difference between an afternoon and a quarter. Four tiers show up across
-the list: *fully open* (click and download), *registration* (free account), *data-use agreement* (a signature, no
+Check the **Access** column first. Four tiers show up across the list: *fully open* (click and download), *registration* (free account), *data-use agreement* (a signature, no
 review), and *controlled access* (committee review, often weeks, sometimes an institutional signing official).
 
 Roughly: the invertebrate connectomes and the Allen atlases are open; the big human cohorts are not.
