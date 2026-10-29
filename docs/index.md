@@ -7,13 +7,11 @@ neurons and roughly 50 million connections — has been reconstructed and publis
 visual cortex in which 200,000 cells each come with a recording of what they did while the animal watched a movie.
 Brain scans from 100,000 people. Gene expression for all 302 neurons of a nematode, measured one neuron at a time.
 
-None of it is behind a paywall. The hard part was never whether the data exist — it is that they sit in 188 separate
+The hard part isn't whether the data exist, it is that they sit in many separate
 portals, each with its own login, licence, file format and vocabulary, and no two of them agree on what to call a
 brain region.
 
-**This site is the map.** Part II is where everything lives and what it takes to get in. Part I is how the field ended
-up this way, which matters more than it sounds: knowing that an archive runs on a programme whose funding ends after
-FY2026 tells you something useful before you build a pipeline on top of it.
+**This site is the map.** Part I is the history of how the field has evolved. Part II is where everything lives and what it takes to get in. 
 
 ## Find your way in
 
