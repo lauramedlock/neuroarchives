@@ -46,17 +46,15 @@ flowchart TD
     START --> MOD[Computational models<br>and tools]
 
     EXP --> PREP{Preparation}
-    PREP -->|Human, in vivo| HU{Modality}
-    PREP -->|Human, post-mortem<br>or iPSC-derived| HPM{Measurement}
+    PREP -->|Human| HU{Modality}
     PREP -->|Rodent or<br>nonhuman primate| RO{Modality}
     PREP -->|Fly, worm,<br>zebrafish| INV{Modality}
-    PREP -->|Undecided —<br>search broadly first| FED[Federated archives]
+    PREP -->|Undecided| GEN{Modality}
 
     HU -->|MRI, fMRI, dMRI, PET| E1[Neuroimaging cohorts]
     HU -->|EEG, MEG, iEEG| E2[Human electrophysiology]
-
-    HPM -->|Tissue, genotypes,<br>disease cohorts| E3[Disease, genetics<br>and biobanks]
-    HPM -->|Organoid and<br>culture recordings| E4[Organoids and<br>in-vitro models]
+    HU -->|Tissue, genotypes,<br>disease cohorts| E3[Disease, genetics<br>and biobanks]
+    HU -->|Organoid and<br>culture recordings| E4[Organoids and<br>in-vitro models]
 
     RO -->|Spiking, LFP,<br>calcium imaging| E5[Neurophysiology]
     RO -->|EM, tracing,<br>morphology| E6[Connectomics]
@@ -67,29 +65,29 @@ flowchart TD
     INV -->|Expression| E7
     INV -->|Genes, alleles,<br>anatomy ontologies| E9[Model-organism<br>knowledgebases]
 
+    GEN -->|General archives| E10
+
     MOD --> PURPOSE{Purpose}
     PURPOSE -->|Register my data into<br>a common coordinate space| M1[Reference atlases and<br>coordinate frameworks]
     PURPOSE -->|Simulate circuits,<br>reuse published models| M2[Models, simulation<br>and benchmarks]
     PURPOSE -->|Score a model<br>against neural data| M2
     PURPOSE -->|Convert formats, find<br>repositories, cite RRIDs| M3[Standards, tooling<br>and catalogs]
 ```
+
 Now explore the matching dataset/resource:
 
-### Experimental data
+### Experimental Data
 
 <div class="grid cards" markdown>
 
--   **Human, in vivo**
+-   **Human**
 
     [Neuroimaging cohorts and population studies](resources/human-neuroimaging.md) ·
     [EEG, MEG and iEEG](resources/human-electrophysiology.md)
-
--   **Human, post-mortem and in vitro**
-
     [Disease, genetics and biobank portals](resources/disease-genetics.md) ·
     [Organoids, stem cells and in-vitro models](resources/organoids.md)
 
--   **Rodent and nonhuman primate**
+-   **Animal (rodent, NHP)**
 
     [Neurophysiology and neural activity](resources/neurophysiology.md) ·
     [Connectomics and morphology](resources/connectomics.md) ·
@@ -100,6 +98,11 @@ Now explore the matching dataset/resource:
 
     [Connectomics](resources/connectomics.md) · [Transcriptomics](resources/transcriptomics.md) ·
     [Model-organism knowledgebases](resources/model-organisms.md)
+
+-   **General-purpose archives**
+
+    [Federated archives and multi-modal repositories](resources/federated-archives.md) — the standards-based archives
+    holding data from many labs. For most modalities, check one of these before hunting for a lab-specific portal.
 
 </div>
 
