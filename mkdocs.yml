@@ -95,3 +95,4 @@ nav:
       - Model-organism knowledgebases: resources/model-organisms.md
       - Disease, genetics & biobank portals: resources/disease-genetics.md
       - Standards, tooling & resource catalogs: resources/standards-catalogs.md
+      - Benchmarks & evaluation suites: resources/benchmarks.md
