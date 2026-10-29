@@ -42,30 +42,30 @@ each with its own login, licence, file format, and vocabulary.
 %%{init: {"flowchart": {"curve": "stepBefore", "nodeSpacing": 35, "rankSpacing": 55, "useMaxWidth": true}} }%%
 flowchart LR
     START([What do you need?])
-    START --> EXP[Experimental data]
-    START --> MOD[Computational models<br>and tools]
+    START --> EXP[Experimental Data]
+    START --> MOD[Computational Models<br>and Tools]
 
     EXP --> PREP{Preparation}
     PREP -->|Human| HU{Modality}
-    PREP -->|Rodent or<br>nonhuman primate| RO{Modality}
-    PREP -->|Fly, worm,<br>zebrafish| INV{Modality}
+    PREP -->|Rodent or<br>NHP| RO{Modality}
+    PREP -->|Fly, Worm,<br>Zebrafish| INV{Modality}
     PREP -->|Undecided| GEN{Modality}
 
     HU -->|MRI, fMRI, dMRI, PET| E1[Neuroimaging]
     HU -->|EEG, MEG, iEEG| E2[Electrophysiology]
-    HU -->|Tissue, genotypes,<br>disease cohorts| E3[Disease, genetics,<br>and biobanks]
-    HU -->|Organoid and<br>culture recordings| E4[Organoids, stem cells,<br> and in-vitro models]
+    HU -->|Tissue, Genotypes,<br>Disease Cohorts| E3[Disease, Genetics,<br>& Biobanks]
+    HU -->|Organoid and<br>Culture Recordings| E4[Organoids & Stem Cells]
 
-    RO -->|Spiking, LFP,<br>calcium imaging| E5[Neurophysiology] 
-    RO -->|EM, tracing,<br>morphology| E6[Connectomics, <br> Morphology]
+    RO -->|Spiking, LFP,<br>Ca2+ Imaging| E5[Neurophysiology] 
+    RO -->|EM, Tracing,<br>Morphology| E6[Connectomics, <br> Morphology]
     RO -->|scRNA-seq, snATAC,<br>spatial-omics| E7[Transcriptomics]
-    RO -->|Video and<br>pose tracking| E8[Behaviour and Pose]
+    RO -->|Video and<br>Pose Tracking| E8[Behaviour and Pose]
 
     INV -->|Wiring| E6
     INV -->|Expression| E7
-    INV -->|Genes, alleles,<br>anatomy ontologies| E9[Model-organism<br>Databases]
+    INV -->|Genes, Alleles,<br>Anatomy Ontologies| E9[Model-Organism<br>Databases]
 
-    GEN -->|General archives| E10[Multi-modal Repositories]
+    GEN -->|General Archives| E10[Multi-Modal Repositories]
 
     MOD --> PURPOSE{Purpose}
     PURPOSE -->|Register my data into<br>a common coordinate space| M1[Reference Atlases and<br>Coordinate Frameworks]
