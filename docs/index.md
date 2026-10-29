@@ -39,7 +39,7 @@ each with its own login, licence, file format, and vocabulary.
 ## Finding your resource
 
 ```mermaid
-%%{init: {"flowchart": {"curve": "stepBefore", "nodeSpacing": 35, "rankSpacing": 55, "useMaxWidth": true}} }%%
+%%{init: {"flowchart": {"curve": "stepBefore", "useMaxWidth": true}} }%%
 flowchart LR
     START([What Do You Need?])
     START --> EXP[Experimental Data]
