@@ -1,4 +1,4 @@
-# History: from neuroinformatics to brain foundation models
+# History: From Neuroinformatics to Brain Foundation Models
 
 Oct 27, 2026 · @Laura M
 
