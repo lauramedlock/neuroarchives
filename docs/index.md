@@ -39,39 +39,46 @@ each with its own login, licence, file format, and vocabulary.
 ## Finding your resource
 
 ```mermaid
-%%{init: {"flowchart": {"curve":"stepBefore", "useMaxWidth": true}} }%%
+%%{init: {"flowchart": {"curve": "stepBefore", "useMaxWidth": true, "rankSpacing": 70, "nodeSpacing": 30}} }%%
 flowchart LR
     START([What Do You Need?])
     START --> EXP[Experimental Data]
     START --> MOD[Computational Models<br>and Tools]
-
     EXP --> PREP[Preparation]
-    PREP -->GEN[Undecided]
-    PREP -->HU[Human]
-    PREP -->RO[Rodent, NHP]
-    PREP -->INV[Fly, Worm,<br>Zebrafish]
+    MOD --> PURPOSE[Purpose]
+
+    subgraph expArm [ ]
+    direction LR
+    PREP -->|Undecided| GEN[General,<br>Multi-Modal Repositories]
+    PREP -->|Human| HU[Modality]
+    PREP -->|Rodent or<br>NHP| RO[Modality]
+    PREP -->|Fly, Worm,<br>Zebrafish| INV[Modality]
 
     HU -->|MRI, fMRI, dMRI, PET| E1[Neuroimaging]
     HU -->|EEG, MEG, iEEG| E2[Electrophysiology]
     HU -->|Tissue, Genotypes,<br>Disease Cohorts| E3[Disease, Genetics,<br>& Biobanks]
     HU -->|Organoid and<br>Culture Recordings| E4[Organoids & Stem Cells]
 
-    RO -->|Spiking, LFP,<br>Ca2+ Imaging| E5[Neurophysiology] 
-    RO -->|EM, Tracing,<br>Morphology| E6[Connectomics, <br> Morphology]
+    RO -->|Spiking, LFP,<br>Ca2+ Imaging| E5[Neurophysiology]
+    RO -->|EM, Tracing,<br>Morphology| E6[Connectomics,<br>Morphology]
     RO -->|scRNA-seq, snATAC,<br>spatial-omics| E7[Transcriptomics]
     RO -->|Video and<br>Pose Tracking| E8[Behaviour and Pose]
 
     INV -->|Wiring| E6b[Connectomics,<br>Morphology]
     INV -->|Expression| E7b[Transcriptomics]
     INV -->|Genes, Alleles,<br>Anatomy Ontologies| E9[Model-Organism<br>Databases]
+    end
 
-    GEN -->E10[General,<br> Multi-Modal Repositories]
-
-    MOD --> PURPOSE[Purpose]
+    subgraph modArm [ ]
+    direction LR
     PURPOSE -->|Register my data into<br>a common coordinate space| M1[Reference Atlases and<br>Coordinate Frameworks]
     PURPOSE -->|Simulate circuits,<br>reuse published models| M2[Models, Simulation]
     PURPOSE -->|Score a model<br>against neural data| M4[Benchmarks]
     PURPOSE -->|Convert data formats, find<br>repositories, cite RRIDs| M3[Standards, Tools,<br>and Catalogs]
+    end
+
+    style expArm fill:none,stroke:none
+    style modArm fill:none,stroke:none
 ```
 
 ### Experimental Data
