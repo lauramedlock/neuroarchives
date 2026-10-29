@@ -74,7 +74,7 @@ def main() -> int:
             f"# {cat['title']}\n\n"
             f"{cat['intro']}\n\n"
             f"*{len(block)} resources. Generated from "
-            f"[`data/neuroscience_data_resources.csv`](../about/contributing.md) — "
+            f"[`data/neuroscience_data_resources.csv`] — "
             f"edit the CSV, not this page.*\n\n"
             f"{render_table(block)}\n"
         )
