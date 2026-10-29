@@ -72,13 +72,13 @@ extra_css:
 nav:
   - Home: index.md
   - History:
-      - Overview: history/index.md
-      - Wave 1 - National & Multinational Initiatives: history/national-initiatives.md
-      - Wave 2 - Atlases, Connectomes & Mapping Consortia: history/mapping-consortia.md
-      - Wave 3 - Data Archives, Standards & Infrastructure: history/infrastructure.md
-      - Wave 4 - Foundation Models of the Brain: history/foundation-models.md
+      - Overview (Four Waves): history/index.md
+      - National & Multinational Initiatives: history/national-initiatives.md
+      - Atlases, Connectomes & Mapping Consortia: history/mapping-consortia.md
+      - Data Archives, Standards & Infrastructure: history/infrastructure.md
+      - Foundation Models of the Brain: history/foundation-models.md
       - List of Initiatives: history/master-list.md
-      - Outlook Going Forward: history/outlook.md
+      - Outlook: history/outlook.md
       - Sources: history/sources.md
   - Resource List:
       - How to Navigate: resources/index.md
