@@ -1,5 +1,6 @@
-site_name: "Brain Data: A Field Guide to Neuroscience Resources"
+site_name: "Brain Data: A Field Guide to Neuroscience Archives"
 site_description: A field guide to the initiatives that built the world's brain-data infrastructure, and to the 188 open archives, atlases, cohorts, benchmarks and standards they left behind.
+# Canonical URL — change if your Read the Docs slug is not 'neuroarchives'.
 site_url: https://neuroarchives.readthedocs.io/
 site_author: Laura Medlock
 repo_url: https://github.com/lauramedlock/brain-data-docs
@@ -49,7 +50,11 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.snippets
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
