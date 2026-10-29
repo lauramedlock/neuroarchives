@@ -44,6 +44,3 @@ from today. The split is by question:
 | When did it start, who funded it, is it still funded? | [History](history/index.md) |
 | What does it hold, for which species, and how do I get access? | [Resource list](resources/index.md) |
 
-Descriptions are not repeated across the two: the history pages carry dates, budgets and status and link out to the
-full entry, which carries species, technique, level and access. See [methodology](about/methodology.md) for how the two
-source documents were merged.
