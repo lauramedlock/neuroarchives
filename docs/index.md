@@ -79,22 +79,26 @@ flowchart LR
 <div class="grid cards" markdown>
 
 -   **Human**
+  
     [Neuroimaging](resources/human-neuroimaging.md) ·
     [Electrophysiology](resources/human-electrophysiology.md) ·
     [Disease, Genetics, & Biobank Portals](resources/disease-genetics.md) ·
     [Organoids & Stem Cells](resources/organoids.md)
 
 -   **Animal (Rodent, NHP)**
+  
     [Neurophysiology](resources/neurophysiology.md) ·
     [Connectomics & Morphology](resources/connectomics.md) ·
     [Transcriptomics & Spatial -omics](resources/transcriptomics.md) ·
     [Behaviour & Pose Estimation](resources/behavior.md)
 
 -   **Invertebrate and Small Vertebrate**
+  
     [Connectomics](resources/connectomics.md) · [Transcriptomics](resources/transcriptomics.md) ·
     [Model-Organism Databases](resources/model-organisms.md)
 
 -   **General-Purpose Archives**
+  
     [Multi-Modal Repositories](resources/federated-archives.md) (federated, standards-based archives
     holding data from many labs).
 
@@ -105,13 +109,20 @@ flowchart LR
 <div class="grid cards" markdown>
 
 -   **[Computational Models & Simulation](resources/models.md)**
+  
     Published model code (ModelDB, Open Source Brain) and the simulators to run it (The Virtual Brain, NetPyNE, Arbor).
+    
 -   **[Benchmarking](resources/benchmarks.md)**
+  
     Leaderboards, held-out challenge splits, and the datasets the field uses as common test sets, cross-listed from
     their home categories.
+    
 -   **[Reference Atlases & Coordinate Frameworks](resources/reference-atlases.md)**
+  
     The coordinate spaces everything else registers into: Allen CCFv3, Julich-Brain, BigBrain, Waxholm, TemplateFlow.
+    
 -   **[Formats, Converters, Standards](resources/standards-catalogs.md)**
+  
     Data formats (NWB, BIDS, DataLad and openMINDS), plus the registries for finding resources and checking they are still maintained.
 
 </div>
