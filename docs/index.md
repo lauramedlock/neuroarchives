@@ -49,10 +49,10 @@ flowchart LR
 
     subgraph expArm [ ]
     direction LR
-    PREP -->|Undecided| GEN[General,<br>Multi-Modal Repositories]
-    PREP -->|Human| HU[Modality]
-    PREP -->|Rodent or<br>NHP| RO[Modality]
-    PREP -->|Fly, Worm,<br>Zebrafish| INV[Modality]
+    PREP -->GEN[Undecided]
+    PREP -->HU[Human]
+    PREP -->RO[Rodent, NHP]
+    PREP -->INV[Fly, Worm,<br>Zebrafish]
 
     HU -->|MRI, fMRI, dMRI, PET| E1[Neuroimaging]
     HU -->|EEG, MEG, iEEG| E2[Electrophysiology]
@@ -67,6 +67,8 @@ flowchart LR
     INV -->|Wiring| E6b[Connectomics,<br>Morphology]
     INV -->|Expression| E7b[Transcriptomics]
     INV -->|Genes, Alleles,<br>Anatomy Ontologies| E9[Model-Organism<br>Databases]
+
+    GEN --> E10[General, Multi-Modal Repositories]
     end
 
     subgraph modArm [ ]
