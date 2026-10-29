@@ -104,17 +104,15 @@ flowchart LR
 
 </div>
 
-### Models and Tools
+### Models & Tools
 
 <div class="grid cards" markdown>
 
 -   **[Computational Models & Simulation](resources/models.md)**
-
-    [Computational Models & Simulation](resources/models.md) · [Benchmarking](resources/benchmarking.md)
-
--   **Formats, Converters, and Registries**
-
-    [Standards, Tooling & Resource Catalogs](resources/standards-catalogs.md)
+-   **[Benchmarking](resources/benchmarking.md)**
+-   **[Reference Atlases & Coordinate Frameworks](resources/reference-atlases.md)**
+-   **[Formats, Converters, Standards](resources/standards-catalogs.md)**
+    
 
 </div>
 
