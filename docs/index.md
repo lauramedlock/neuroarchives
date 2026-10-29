@@ -79,26 +79,22 @@ flowchart LR
 <div class="grid cards" markdown>
 
 -   **Human**
-
     [Neuroimaging](resources/human-neuroimaging.md) ·
     [Electrophysiology](resources/human-electrophysiology.md) ·
     [Disease, Genetics, & Biobank Portals](resources/disease-genetics.md) ·
     [Organoids & Stem Cells](resources/organoids.md)
 
 -   **Animal (Rodent, NHP)**
-
     [Neurophysiology](resources/neurophysiology.md) ·
     [Connectomics & Morphology](resources/connectomics.md) ·
     [Transcriptomics & Spatial -omics](resources/transcriptomics.md) ·
     [Behaviour & Pose Estimation](resources/behavior.md)
 
 -   **Invertebrate and Small Vertebrate**
-
     [Connectomics](resources/connectomics.md) · [Transcriptomics](resources/transcriptomics.md) ·
     [Model-Organism Databases](resources/model-organisms.md)
 
 -   **General-Purpose Archives**
-
     [Multi-Modal Repositories](resources/federated-archives.md) (federated, standards-based archives
     holding data from many labs).
 
@@ -109,34 +105,30 @@ flowchart LR
 <div class="grid cards" markdown>
 
 -   **[Computational Models & Simulation](resources/models.md)**
+    Published model code (ModelDB, Open Source Brain) and the simulators to run it (The Virtual Brain, NetPyNE, Arbor).
 -   **[Benchmarking](resources/benchmarks.md)**
+    Leaderboards, held-out challenge splits, and the datasets the field uses as common test sets, cross-listed from
+    their home categories.
 -   **[Reference Atlases & Coordinate Frameworks](resources/reference-atlases.md)**
+    The coordinate spaces everything else registers into: Allen CCFv3, Julich-Brain, BigBrain, Waxholm, TemplateFlow.
 -   **[Formats, Converters, Standards](resources/standards-catalogs.md)**
-    
+    Data formats (NWB, BIDS, DataLad and openMINDS), plus the registries for finding resources and checking they are still maintained.
 
 </div>
 
 ## State of the Field
 
-- **Open data sharing is working.** Open archives (OpenNeuro, DANDI, EBRAINS) and the shared formats beneath
+Three observations have come from compiling these resources and intiatives:
+
+1. **Open data sharing is working.** Open archives (OpenNeuro, DANDI, EBRAINS) and the shared formats beneath
   them (BIDS for imaging, NWB for neurophysiology) are active and growing, and now also serve as the training substrate
   for pooled models of neural activity.
-- **Megaprojects have converted into permanent infrastructure.** The EU Human Brain Project ended in 2023 and was
+2. **Megaprojects have converted into permanent infrastructure.** The EU Human Brain Project ended in 2023 and was
   succeeded by EBRAINS; Blue Brain closed in 2024 and its assets moved to the Open Brain Institute; Japan's Brain/MINDS
   became Brain/MINDS 2.0.
-- **Funding is shifting.** US BRAIN funding sits below its 2023 peak and its 21st Century Cures Act component ends
+3. **Funding is shifting.** US BRAIN funding sits below its 2023 peak and its 21st Century Cures Act component ends
   after FY2026, while China and Japan are expanding. Canada and Australia have mature national strategies without
   dedicated national budgets.
-
-## Two halves, two questions
-
-Plenty of things appear in both parts of this site... EBRAINS is simultaneously a 2019 EU initiative and an archive you
-can download data from. Nothing is described twice; which half you want depends on your question:
-
-| Your question | Where it is answered |
-|---|---|
-| When did it start, who paid for it, is it still funded? | [History](history/index.md) |
-| What does it hold, for which species, and how do I get in? | [Resource list](resources/index.md) |
 
 ## Before you download anything
 
