@@ -4,7 +4,7 @@ Oct 27, 2026 · @Laura M
 
 Over three decades, about 30 major initiatives have tried to pool brain data and build a shared model of the brain; as of October 2026, most survive as permanent archives, atlases and AI models rather than as the original megaprojects.
 
-This document covers national brain initiatives, mapping consortia, data archives and standards, and the newest brain foundation models. Each entry gives what it proposed, what it built, and its current status. The [master list](master-list.md) summarizes all 33 in one table. Every archive, atlas or portal named here that you can actually download data from has a full entry with species, technique and access terms in the [resource list](../resources/index.md).
+This History section covers national brain initiatives, mapping consortia, data archives and standards, and the newest brain foundation models. Each entry gives what it proposed, what it built, and its current status. The [initiatives list](master-list.md) summarizes all of them in one table. Every archive, atlas, or portal named here that you can download data from has a full entry with species, technique and access terms in the [resources list](../resources/index.md).
 
 Three things stand out:
 
