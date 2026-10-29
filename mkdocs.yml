@@ -13,7 +13,6 @@ theme:
     - navigation.instant
     - navigation.tracking
     - navigation.top
-    - navigation.expand
     - navigation.indexes
     - toc.follow
     - search.suggest
