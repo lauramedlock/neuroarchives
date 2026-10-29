@@ -93,7 +93,7 @@ flowchart LR
     [Neuroimaging](resources/human-neuroimaging.md) ·
     [Electrophysiology](resources/human-electrophysiology.md) ·
     [Disease, Genetics, & Biobank Portals](resources/disease-genetics.md) ·
-    [Organoids & Stem Cells](resources/organoids.md)
+    [Organoids & Stem Cells](resources/organoids.md) ·
     [Behaviour & Pose Estimation](resources/behavior.md)
 
 -   **Animal (Rodent, NHP)**
