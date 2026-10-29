@@ -68,7 +68,7 @@ flowchart LR
     INV -->|Expression| E7b[Transcriptomics]
     INV -->|Genes, Alleles,<br>Anatomy Ontologies| E9[Model-Organism<br>Databases]
 
-    GEN --> E10[General, Multi-Modal Repositories]
+    GEN --> E10[General,<br>Multi-Modal Repositories]
     end
 
     subgraph modArm [ ]
