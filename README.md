@@ -18,7 +18,6 @@ list of 188 open neuroscience data resources. Built with [MkDocs](https://www.mk
 │   ├── index.md                   # landing page
 │   ├── history/                   # hand-written history pages
 │   ├── resources/                 # GENERATED category pages (do not edit by hand)
-│   ├── about/                     # methodology, changelog, contributing
 │   └── assets/                    # coverage figure, extra CSS
 └── .github/workflows/docs.yml     # build, staleness check, GitHub Pages deploy
 ```
