@@ -14,7 +14,8 @@ Three things stand out:
 
 The field moved through four overlapping waves: shared databases (1990s), whole-brain atlases (2000s), national "moonshot" initiatives (2013–2018), and, since about 2020, open data standards plus AI models trained across many datasets.
 
-**Wave 1 — Neuroinformatics (1993–2005).** The US Human Brain Project (NIMH and partners, 1993–2004) funded the first neuroscience databases and tools. The Organisation for Economic Co-operation and Development (OECD) then pushed for international coordination, leading to the International Neuroinformatics Coordinating Facility (INCF) in Stockholm in 2005.
+**Wave 1 — Neuroinformatics (1993–2005).** The first wave was about making existing data usable by someone who had not collected it. The response was infrastructure including databases, catalogues, and the committees needed to agree on shared formats, common vocabulary, and a way to cite a dataset. The [US Human Brain Project](national-initiatives.md) (NIMH and partners, 1993–2004) funded that first
+generation of tools, and an OECD push for international coordination produced the [INCF](national-initiatives.md) in Stockholm in 2005, which still runs the process by which BIDS and NWB are endorsed. [ModelDB](../resources/models.md), started at Yale's SenseLab in 1996, is still the main archive of published computational neuroscience models.
 
 **Wave 2 — Atlases and connectomes (2003–2012).** Paul Allen founded the Allen Institute for Brain Science in 2003; its Allen Mouse Brain Atlas (2006) showed that an industrial-scale, fully open brain dataset could work. The Blue Brain Project (École Polytechnique Fédérale de Lausanne \[EPFL\], 2005) set out to simulate cortex in biological detail. The NIH Human Connectome Project (2009–2010 start) mapped human brain wiring with MRI and released it openly. UK Biobank began brain imaging of 100,000 people in 2014.
 
