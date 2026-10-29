@@ -3,7 +3,7 @@
 **188 resources** across 13 categories, spanning *C. elegans* to human, molecules to behaviour. Each entry records what
 the data are, who hosts them, the access conditions and the URL.
 
-Machine-readable version: [`data/neuroscience_data_resources.csv`](https://github.com/lauramedlock/neuroarchives/blob/main/data/neuroscience_data_resources.csv)
+Machine-readable version: [`data/neuroscience_data_resources.csv`](https://github.com/lauramedlock/brain-data-docs/blob/main/data/neuroscience_data_resources.csv)
 — columns: Category, Resource, Host, Region, Species, Technique, Level, Description, URL, Access. Every page in this
 section is generated from that file.
 
@@ -34,6 +34,14 @@ to every species and level, as are the three resources merged in from the histor
 the 185 resources of the original compilation. The pattern is the real state of the field: human and mouse carry 64% of
 species coverage, invertebrate resources are strongest at the cell and circuit levels (where complete connectomes
 exist), and explicitly model-oriented resources are the scarcest category in every species.
+
+## Cross-cutting views
+
+Some resources are looked for by purpose rather than by data type. Those are cross-listed on their own page, which
+duplicates entries rather than moving them:
+
+- [Benchmarks & evaluation suites](benchmarks.md) — leaderboards, challenges with held-out splits, and the datasets
+  the field uses as common test sets.
 
 ## Categories
 
