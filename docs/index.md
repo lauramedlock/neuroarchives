@@ -51,27 +51,27 @@ flowchart TD
     PREP -->|Fly, worm,<br>zebrafish| INV{Modality}
     PREP -->|Undecided| GEN{Modality}
 
-    HU -->|Neuroimaging| E1[MRI, fMRI, dMRI, PET]
-    HU -->|Electrophysiology| E2[EEG, MEG, iEEG]
+    HU -->|MRI, fMRI, dMRI, PET| E1[Neuroimaging]
+    HU -->|EEG, MEG, iEEG| E2[Electrophysiology]
     HU -->|Tissue, genotypes,<br>disease cohorts| E3[Disease, genetics,<br>and biobanks]
     HU -->|Organoid and<br>culture recordings| E4[Organoids, stem cells,<br> and in-vitro models]
 
-    RO -->E5[Neurophysiology]|Spiking, LFP,<br>calcium imaging| 
-    RO -->E6[Connectomics]|EM, tracing,<br>morphology| 
+    RO -->|Spiking, LFP,<br>calcium imaging| E5[Neurophysiology] 
+    RO -->|EM, tracing,<br>morphology| E6[Connectomics]
     RO -->|scRNA-seq, snATAC,<br>spatial omics| E7[Transcriptomics]
     RO -->|Video and<br>pose tracking| E8[Behaviour and Pose]
 
     INV -->|Wiring| E6
     INV -->|Expression| E7
-    INV -->|Genes, alleles,<br>anatomy ontologies| E9[Model-organism<br>knowledgebases]
+    INV -->|Genes, alleles,<br>anatomy ontologies| E9[Model-organism<br>databases]
 
-    GEN -->|General archives| E10[Federated archives and multi-modal repositories]
+    GEN -->|General archives| E10[Multi-modal repositories]
 
     MOD --> PURPOSE{Purpose}
     PURPOSE -->|Register my data into<br>a common coordinate space| M1[Reference atlases and<br>coordinate frameworks]
-    PURPOSE -->|Simulate circuits,<br>reuse published models| M2[Models, simulation<br>and benchmarks]
+    PURPOSE -->|Simulate circuits,<br>reuse published models| M2[Models, simulation,<br>and benchmarks]
     PURPOSE -->|Score a model<br>against neural data| M2
-    PURPOSE -->|Convert formats, find<br>repositories, cite RRIDs| M3[Standards, tooling<br>and catalogs]
+    PURPOSE -->|Convert formats, find<br>repositories, cite RRIDs| M3[Standards, tooling,<br>and catalogs]
 ```
 
 Now explore the matching dataset/resource:
