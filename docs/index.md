@@ -84,15 +84,15 @@ Now explore the matching dataset/resource:
 
     [Neuroimaging](resources/human-neuroimaging.md) ·
     [Electrophysiology](resources/human-electrophysiology.md) ·
-    [Disease, genetics, and biobank portals](resources/disease-genetics.md) ·
-    [Organoids, stem cells, and in-vitro models](resources/organoids.md)
+    [Disease, Genetics, & Biobank Portals](resources/disease-genetics.md) ·
+    [Organoids & Stem cells](resources/organoids.md)
 
 -   **Animal (rodent, NHP)**
 
     [Neurophysiology](resources/neurophysiology.md) ·
-    [Connectomics and Morphology](resources/connectomics.md) ·
-    [Transcriptomics and spatial -omics](resources/transcriptomics.md) ·
-    [Behaviour and Pose Estimation](resources/behavior.md)
+    [Connectomics & Morphology](resources/connectomics.md) ·
+    [Transcriptomics & Spatial -omics](resources/transcriptomics.md) ·
+    [Behaviour & Pose Estimation](resources/behavior.md)
 
 -   **Invertebrate and Small Vertebrate**
 
@@ -101,8 +101,8 @@ Now explore the matching dataset/resource:
 
 -   **General-purpose archives**
 
-    [Multi-modal Repositories](resources/federated-archives.md) — Federated, standards-based archives
-    holding data from many labs. 
+    [Multi-Modal Repositories](resources/federated-archives.md) (federated, standards-based archives
+    holding data from many labs).
 
 </div>
 
@@ -116,7 +116,7 @@ Now explore the matching dataset/resource:
 
 -   **Formats, Converters, and Registries**
 
-    [Standards, Tooling and Resource Catalogs](resources/standards-catalogs.md)
+    [Standards, Tooling & Resource Catalogs](resources/standards-catalogs.md)
 
 </div>
 
