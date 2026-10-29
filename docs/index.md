@@ -130,7 +130,7 @@ Three observations have come from compiling these resources and intiatives:
   after FY2026, while China and Japan are expanding. Canada and Australia have mature national strategies without
   dedicated national budgets.
 
-## Before you download anything
+## Before Downloading Data...
 
 Check the **Access** column first. Four tiers show up across the list: *fully open* (click and download), *registration* (free account), *data-use agreement* (a signature, no
 review), and *controlled access* (committee review, often weeks, sometimes an institutional signing official).
