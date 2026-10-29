@@ -12,7 +12,7 @@ Brain scans from 100,000 people. Gene expression for all 302 neurons of a nemato
 The hard part is that this data sits in many separate portals, 
 each with its own login, licence, file format, and vocabulary.
 
-## **This site is the map.**
+**This site is the map.**
 
 <div class="grid cards" markdown>
 
@@ -85,7 +85,7 @@ Now explore the matching dataset/resource:
     [Neuroimaging](resources/human-neuroimaging.md) ·
     [Electrophysiology](resources/human-electrophysiology.md) ·
     [Disease, Genetics, & Biobank Portals](resources/disease-genetics.md) ·
-    [Organoids & Stem cells](resources/organoids.md)
+    [Organoids & Stem Cells](resources/organoids.md)
 
 -   **Animal (rodent, NHP)**
 
@@ -99,7 +99,7 @@ Now explore the matching dataset/resource:
     [Connectomics](resources/connectomics.md) · [Transcriptomics](resources/transcriptomics.md) ·
     [Model-Organism Databases](resources/model-organisms.md)
 
--   **General-purpose archives**
+-   **General-Purpose Archives**
 
     [Multi-Modal Repositories](resources/federated-archives.md) (federated, standards-based archives
     holding data from many labs).
