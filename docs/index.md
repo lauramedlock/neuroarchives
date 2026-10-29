@@ -58,14 +58,15 @@ flowchart LR
     HU -->|EEG, MEG, iEEG| E2[Electrophysiology]
     HU -->|Tissue, Genotypes,<br>Disease Cohorts| E3[Disease, Genetics,<br>& Biobanks]
     HU -->|Organoid and<br>Culture Recordings| E4[Organoids & Stem Cells]
+    HU -->|Video and<br>Tracking| E8[Behaviour and Pose]
 
     RO -->|Spiking, LFP,<br>Ca2+ Imaging| E5[Neurophysiology]
     RO -->|EM, Tracing,<br>Morphology| E6[Connectomics,<br>Morphology]
     RO -->|scRNA-seq, snATAC,<br>spatial-omics| E7[Transcriptomics]
-    RO -->|Video and<br>Pose Tracking| E8[Behaviour and Pose]
+    RO -->|Video and<br>Tracking| E8[Behaviour and Pose]
 
-    INV -->|Wiring| E6b[Connectomics,<br>Morphology]
-    INV -->|Expression| E7b[Transcriptomics]
+    INV -->|Wiring| E6[Connectomics,<br>Morphology]
+    INV -->|Expression| E7[Transcriptomics]
     INV -->|Genes, Alleles,<br>Anatomy Ontologies| E9[Model-Organism<br>Databases]
 
     GEN --> E10[General,<br>Multi-Modal Repositories]
