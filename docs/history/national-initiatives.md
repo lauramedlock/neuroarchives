@@ -1,6 +1,20 @@
-# National and multinational brain initiatives
+# National and Multinational Brain Initiatives
 
-Of the eight major government-level efforts, four are actively funded (US, EU via EBRAINS, Japan, China), two are re-scoping toward AI and neurotechnology (Korea, China), and two have never secured a dedicated national budget (Canada, Australia).
+This section covers the government-level programmes and the intergovernmental bodies that coordinate them, from the
+first neuroinformatics programme in 1993 to the national initiatives launched from 2013 onward. Of the eight major
+government-level efforts of the 2013–2018 wave, four are actively funded (US, EU via EBRAINS, Japan, China), two are re-scoping toward AI and neurotechnology (Korea, China), and two have never secured a dedicated national budget (Canada, Australia).
+
+## US Human Brain Project, NIMH (1993–2004)
+
+- **Proposed:** The first national neuroinformatics programme, funded from 1993 by NIMH with partner agencies. Its
+  premise was that neuroscience's bottleneck was not data collection but data description: results were not recorded in
+  any form a second laboratory could reuse. It funded databases, tools and vocabularies rather than instruments.
+- **Created:** The first generation of neuroscience databases and the tooling around them, several of which outlived
+  the programme — [ModelDB](../resources/models.md) (Yale SenseLab, 1996) is still the main archive of published
+  computational models. It also established the case for international coordination that produced INCF.
+- **Status:** Completed in 2004.
+- **Outlook:** Its legacy is the archive-and-standards layer rather than any single resource: the argument that shared
+  formats are a precondition for reuse, which BIDS and NWB won two decades later.
 
 ## US BRAIN Initiative (2013–present)
 
@@ -49,6 +63,18 @@ Of the eight major government-level efforts, four are actively funded (US, EU vi
 - **Proposed:** An Australian Brain Initiative, costed at [$500 million over five years](https://science.org.au/node/3698), to "crack the brain's code" and build a neurotechnology industry.
 - **Created:** A coalition of [28+ member organisations](https://ans.org.au/resources/issues/about-the-australian-brain-alliance?Itemid=111) under the Australian Academy of Science, plus a published neuroethics framework.
 - **Status:** Active as an advocacy body; no dedicated national initiative has been funded. Its co-chair, Anthony Hannan, now chairs the IBI.
+
+## International Neuroinformatics Coordinating Facility, INCF (2005–present)
+
+- **Proposed:** Set up after the OECD pushed for international coordination of neuroscience data sharing, as the
+  standing body the field had lacked — somewhere formats and best practices could be reviewed and endorsed rather than
+  each group inventing its own.
+- **Created:** [Founded in Stockholm in 2005 by seven OECD countries](https://www.timeshighereducation.com/node/58454);
+  it now endorses community standards — [BIDS and NWB](../resources/standards-catalogs.md) among them — and runs open
+  training materials.
+- **Status:** Active; [co-hosted by KTH Stockholm](https://neurotecheu.umh.es/en/?p=1741) and member-funded.
+- **Outlook:** Being member-funded makes it small but durable: it depends on national nodes paying subscriptions rather
+  than on any single grant cycle, which is why it has outlasted the programme that created it.
 
 ## International Brain Initiative (2017–present)
 
