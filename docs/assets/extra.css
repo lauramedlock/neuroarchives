@@ -4,3 +4,36 @@
 .md-typeset table:not([class]) td,
 .md-typeset table:not([class]) th { padding: .5em .7em; }
 .md-typeset__table { width: 100%; }
+
+/* Render Mermaid in Mermaid's stock palette (as GitHub shows it) rather than
+   Material's theme-matched restyling. Light scheme only — dark mode keeps
+   Material's version, which stays readable on a dark background. */
+[data-md-color-scheme="default"] .mermaid .node rect,
+[data-md-color-scheme="default"] .mermaid .node circle,
+[data-md-color-scheme="default"] .mermaid .node ellipse,
+[data-md-color-scheme="default"] .mermaid .node polygon,
+[data-md-color-scheme="default"] .mermaid .node path {
+  fill: #ececff !important;
+  stroke: #9370db !important;
+  stroke-width: 1px !important;
+}
+
+[data-md-color-scheme="default"] .mermaid .edgePath .path {
+  stroke: #333333 !important;
+  stroke-width: 1.5px !important;
+}
+
+[data-md-color-scheme="default"] .mermaid marker {
+  fill: #333333 !important;
+  stroke: #333333 !important;
+}
+
+[data-md-color-scheme="default"] .mermaid .nodeLabel,
+[data-md-color-scheme="default"] .mermaid .edgeLabel {
+  font-family: "trebuchet ms", verdana, arial, sans-serif !important;
+  color: #333333 !important;
+}
+
+[data-md-color-scheme="default"] .mermaid .edgeLabel {
+  background-color: #ffffff !important;
+}
