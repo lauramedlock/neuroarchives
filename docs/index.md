@@ -70,7 +70,7 @@ flowchart LR
     MOD --> PURPOSE([Purpose])
     PURPOSE -->|Register my data into<br>a common coordinate space| M1[Reference Atlases and<br>Coordinate Frameworks]
     PURPOSE -->|Simulate circuits,<br>reuse published models| M2[Models, Simulation,<br>and Benchmarks]
-    PURPOSE -->|Score a model<br>against neural data| M2
+    PURPOSE -->|Score a model<br>against neural data| M4[See "Experimental Data" Arm]
     PURPOSE -->|Convert data formats, find<br>repositories, cite RRIDs| M3[Standards, Tools,<br>and Catalogs]
 ```
 
@@ -112,7 +112,7 @@ Now explore the matching dataset/resource:
 
 -   **Simulation and benchmarking**
 
-    [Computational models, simulation, and benchmarks](resources/models.md) — published model source, whole-brain
+    [Computational models, Simulation, and Benchmarks](resources/models.md) — published model source, whole-brain
     simulators, and benchmarks that score models against neural recordings.
 
 -   **Formats, converters, and registries**
