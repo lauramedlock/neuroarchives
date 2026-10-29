@@ -1,6 +1,5 @@
-site_name: "Brain Data: A Field Guide to Neuroscience Resources"
-site_description: A field guide to the initiatives that built the world's brain-data infrastructure, and to the 188 open archives, atlases, cohorts, benchmarks and standards they left behind.
-# Canonical URL — change if your Read the Docs slug is not 'neuroarchives'.
+site_name: "NeuroArchives: A Field Guide to Neuroscience Data & Resources"
+site_description: A field guide to the initiatives that built the world's brain-data infrastructure, and to the open archives, atlases, cohorts, benchmarks and standards they left behind.
 site_url: https://neuroarchives.readthedocs.io/
 site_author: Laura Medlock
 repo_url: https://github.com/lauramedlock/brain-data-docs
