@@ -17,7 +17,7 @@ Brain scans from 100,000 people. Gene expression for all 302 neurons of a nemato
 The hard part is that this data sits in many separate portals, 
 each with its own login, licence, file format, and vocabulary.
 
-**This site is the map.**
+:material-symbols-map: **This site is the map.**
 
 <div class="grid cards" markdown>
 
