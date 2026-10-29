@@ -1,0 +1,8 @@
+[
+  {
+    "slug": "benchmarks",
+    "tag": "Benchmarks",
+    "title": "Benchmarks & evaluation suites",
+    "intro": "Resources that supply **standardised evaluation data** — a leaderboard, a challenge with held-out splits, or a dataset the field has settled on as the common test set for a class of model. Every entry here is cross-listed from the category where it is filed by data type; nothing on this page is a new resource, and the 188 total is unchanged. The duplication is deliberate: benchmarks are the one thing people look for by *purpose* rather than by modality.\n\nNote the split this page exists to fix. Brain-Score is the only benchmark filed under computational models; everything else lives with the experimental data it was recorded as, because that is what it is."
+  }
+]
