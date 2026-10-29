@@ -57,21 +57,21 @@ flowchart TD
     HU -->|Organoid and<br>culture recordings| E4[Organoids, stem cells,<br> and in-vitro models]
 
     RO -->|Spiking, LFP,<br>calcium imaging| E5[Neurophysiology] 
-    RO -->|EM, tracing,<br>morphology| E6[Connectomics]
-    RO -->|scRNA-seq, snATAC,<br>spatial omics| E7[Transcriptomics]
+    RO -->|EM, tracing,<br>morphology| E6[Connectomics, <br> Morphology]
+    RO -->|scRNA-seq, snATAC,<br>spatial-omics| E7[Transcriptomics]
     RO -->|Video and<br>pose tracking| E8[Behaviour and Pose]
 
     INV -->|Wiring| E6
     INV -->|Expression| E7
-    INV -->|Genes, alleles,<br>anatomy ontologies| E9[Model-organism<br>databases]
+    INV -->|Genes, alleles,<br>anatomy ontologies| E9[Model-organism<br>Databases]
 
-    GEN -->|General archives| E10[Multi-modal repositories]
+    GEN -->|General archives| E10[Multi-modal Repositories]
 
     MOD --> PURPOSE{Purpose}
-    PURPOSE -->|Register my data into<br>a common coordinate space| M1[Reference atlases and<br>coordinate frameworks]
-    PURPOSE -->|Simulate circuits,<br>reuse published models| M2[Models, simulation,<br>and benchmarks]
+    PURPOSE -->|Register my data into<br>a common coordinate space| M1[Reference Atlases and<br>Coordinate Frameworks]
+    PURPOSE -->|Simulate circuits,<br>reuse published models| M2[Models, Simulation,<br>and Benchmarks]
     PURPOSE -->|Score a model<br>against neural data| M2
-    PURPOSE -->|Convert formats, find<br>repositories, cite RRIDs| M3[Standards, tooling,<br>and catalogs]
+    PURPOSE -->|Convert data formats, find<br>repositories, cite RRIDs| M3[Standards, Tools,<br>and Catalogs]
 ```
 
 Now explore the matching dataset/resource:
@@ -82,27 +82,27 @@ Now explore the matching dataset/resource:
 
 -   **Human**
 
-    [Neuroimaging cohorts and population studies](resources/human-neuroimaging.md) ·
-    [EEG, MEG, and iEEG](resources/human-electrophysiology.md) ·
+    [Neuroimaging](resources/human-neuroimaging.md) ·
+    [Electrophysiology](resources/human-electrophysiology.md) ·
     [Disease, genetics, and biobank portals](resources/disease-genetics.md) ·
     [Organoids, stem cells, and in-vitro models](resources/organoids.md)
 
 -   **Animal (rodent, NHP)**
 
-    [Neurophysiology and neural activity](resources/neurophysiology.md) ·
-    [Connectomics and morphology](resources/connectomics.md) ·
-    [Transcriptomics and spatial omics](resources/transcriptomics.md) ·
-    [Behaviour, video and pose](resources/behavior.md)
+    [Neurophysiology](resources/neurophysiology.md) ·
+    [Connectomics and Morphology](resources/connectomics.md) ·
+    [Transcriptomics and spatial -omics](resources/transcriptomics.md) ·
+    [Behaviour and Pose Estimation](resources/behavior.md)
 
--   **Invertebrate and small vertebrate**
+-   **Invertebrate and Small Vertebrate**
 
     [Connectomics](resources/connectomics.md) · [Transcriptomics](resources/transcriptomics.md) ·
-    [Model-organism knowledgebases](resources/model-organisms.md)
+    [Model-Organism Databases](resources/model-organisms.md)
 
 -   **General-purpose archives**
 
-    [Federated archives and multi-modal repositories](resources/federated-archives.md) — the standards-based archives
-    holding data from many labs. For most modalities, check one of these before hunting for a lab-specific portal.
+    [Multi-modal Repositories](resources/federated-archives.md) — Federated, standards-based archives
+    holding data from many labs. 
 
 </div>
 
