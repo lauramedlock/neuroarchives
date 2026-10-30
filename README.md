@@ -1,4 +1,4 @@
-# Brain Data: A Field Guide to Neuroscience Archives
+# NeuroArchives: A Field Guide to Neuroscience Data & Resources
 
 Source for a documentation site combining a history of brain-data and brain-model initiatives worldwide with a master
 list of 188 open neuroscience data resources. Built with [MkDocs](https://www.mkdocs.org/) and
