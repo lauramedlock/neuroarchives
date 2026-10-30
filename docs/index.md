@@ -4,7 +4,7 @@
 
 <div class="grid cards" markdown style="background-color: #FFBF00; color: white; padding: 0px; border-radius: 0px;">
     
--   :material-map-search: **This site is the map.**
+-   :material-map-search: **This site is a map.**
 
     If you're starting a project with a tight budget, looking for experimental data to model/analyze, or needing a
     comparison cohort: **the data you need probably already exist... and this guide will help you find it!**
