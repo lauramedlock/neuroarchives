@@ -4,7 +4,9 @@
 
 <div class="grid cards" markdown style="background-color: #FFBF00; color: white; padding: 0px; border-radius: 0px;">
     
--   If you're starting a project with a tight budget, looking for experimental data to model/analyze, or needing a
+-   :material-map-search: **This site is the map.**
+
+    If you're starting a project with a tight budget, looking for experimental data to model/analyze, or needing a
     comparison cohort: **the data you need probably already exist... and this guide will help you find it!**
     
 </div>
@@ -16,8 +18,6 @@ Brain scans from 100,000 people. Gene expression for all 302 neurons of a nemato
 
 The hard part is that this data sits in many separate portals, 
 each with its own login, licence, file format, and vocabulary.
-
-:material-map-search: **This site is the map.**
 
 <div class="grid cards" markdown>
 
