@@ -2,10 +2,10 @@
 
 *Created October 2026 · @Laura M*
 
-<div class="grid cards" markdown>
+<div class="grid cards" markdown style="background-color: #FFBF00; color: white; padding: 15px; border-radius: 8px;">
     
 -   If you're starting a project with a tight budget, looking for experimental data to model/analyze, or needing a
-    comparison cohort: **the data you need probably already exist and this guide will help you find it.**
+    comparison cohort: **the data you need probably already exist... and this guide will help you find it!**
     
 </div>
 
