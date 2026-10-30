@@ -41,7 +41,9 @@ each with its own login, licence, file format, and vocabulary.
 
 </div>
 
-## Finding your resource
+## Finding Your Resource
+
+Know what data/resource you want? Use this flowchart to find out where it lives...
 
 ```mermaid
 %%{init: {"flowchart": {"curve": "stepBefore", "useMaxWidth": true, "rankSpacing": 50, "nodeSpacing": 30}} }%%
