@@ -95,11 +95,16 @@ flowchart LR
 
 <div class="grid cards" markdown>
 
+-   **General-Purpose Archives**
+  
+    [Multi-Modal Repositories](resources/federated-archives.md) (federated, standards-based archives
+    holding data from many labs).
+
 -   **Human**
   
     [Neuroimaging](resources/human-neuroimaging.md) ·
     [Electrophysiology](resources/human-electrophysiology.md) ·
-    [Disease, Genetics, & Biobank Portals](resources/disease-genetics.md) ·
+    [Disease, Genetics, & Biobanks](resources/disease-genetics.md) ·
     [Organoids & Stem Cells](resources/organoids.md) ·
     [Behaviour & Pose Estimation](resources/behavior.md)
 
@@ -107,18 +112,13 @@ flowchart LR
   
     [Neurophysiology](resources/neurophysiology.md) ·
     [Connectomics & Morphology](resources/connectomics.md) ·
-    [Transcriptomics & Spatial -omics](resources/transcriptomics.md) ·
+    [Transcriptomics](resources/transcriptomics.md) ·
     [Behaviour & Pose Estimation](resources/behavior.md)
 
 -   **Invertebrate and Small Vertebrate**
   
     [Connectomics](resources/connectomics.md) · [Transcriptomics](resources/transcriptomics.md) ·
     [Model-Organism Databases](resources/model-organisms.md)
-
--   **General-Purpose Archives**
-  
-    [Multi-Modal Repositories](resources/federated-archives.md) (federated, standards-based archives
-    holding data from many labs).
 
 </div>
 
